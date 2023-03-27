@@ -32,7 +32,12 @@ public class PlayerMovement : MonoBehaviour
         moveHorizontal = Input.GetAxis("Horizontal");
         moveVertical = Input.GetAxis("Vertical");
 
-        rb2d.velocity = new Vector2(moveHorizontal * moveSpeed, moveVertical * jumpForce);
+        
+            rb2d.velocity = new Vector2(moveHorizontal * moveSpeed, moveVertical * jumpForce);
 
+        if(Input.GetButtonDown("Jump"))
+        {
+            rb2d.AddForce(new Vector2(rb2d.velocity.x, jumpForce));
+        }
     }
 }
