@@ -16,7 +16,7 @@ namespace Heibei
 
         void MakeObject()
         {
-            Instantiate(objectToSpawn); //instantiate the object here
+            Instantiate(objectToSpawn, transform.position, transform.rotation); //instantiate the object here (Morgan - "I Added postion called so where spawner is placed will be location of player spawn")
         }
     }
 }
