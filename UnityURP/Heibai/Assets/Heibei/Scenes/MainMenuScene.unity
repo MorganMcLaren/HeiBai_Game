@@ -175,6 +175,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7031042de7ff454eaec5d0392b5bf3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SFXMixer: {fileID: 24100000, guid: e3731c21a556db24286d57fafbb3d76d, type: 2}
+  musicMixer: {fileID: 24100000, guid: 04783bf0792fdf846a6d1f8c683d1053, type: 2}
 --- !u!1 &106296784
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,7 +376,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &223823513
 GameObject:
@@ -489,7 +491,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 504.9951, y: -213.9951}
+  m_AnchoredPosition: {x: 507.4951, y: -213.9951}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &248453900
@@ -539,7 +541,7 @@ MonoBehaviour:
       - m_Target: {fileID: 28706255}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
         m_MethodName: muteMusic
-        m_Mode: 1
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -596,11 +598,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1461254610125181941, guid: 57136706d4f1aac4988951571e765c63, type: 3}
       propertyPath: m_Name
-      value: PlayerSpawner (1)
+      value: PlayerSpawner
       objectReference: {fileID: 0}
     - target: {fileID: 5241613514793490201, guid: 57136706d4f1aac4988951571e765c63, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5241613514793490201, guid: 57136706d4f1aac4988951571e765c63, type: 3}
       propertyPath: m_LocalScale.x
@@ -894,7 +896,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5329699381809847407, guid: 44a5c29697b2c98ec8653673e36e5a9d, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6747237195939546331, guid: 44a5c29697b2c98ec8653673e36e5a9d, type: 3}
       propertyPath: m_Name
@@ -965,7 +967,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5329699381809847407, guid: 44a5c29697b2c98ec8653673e36e5a9d, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6747237195939546331, guid: 44a5c29697b2c98ec8653673e36e5a9d, type: 3}
       propertyPath: m_Name
@@ -1129,7 +1131,7 @@ Transform:
   - {fileID: 2033552297}
   - {fileID: 669039686}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1255283064
 GameObject:
@@ -1283,6 +1285,65 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388364944}
   m_CullTransparentMesh: 1
+--- !u!1001 &1430324801
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6573895407003133140, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
+      propertyPath: m_Name
+      value: Background Spawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573895407003133162, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573895407003133162, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573895407003133162, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573895407003133162, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573895407003133162, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573895407003133162, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573895407003133162, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573895407003133162, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573895407003133162, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573895407003133162, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573895407003133162, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
 --- !u!1 &1439929427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,7 +1426,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1702932069
 GameObject:
@@ -1404,7 +1465,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 434.5, y: -213.9951}
+  m_AnchoredPosition: {x: 437, y: -213.9951}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1702932071
@@ -1454,7 +1515,7 @@ MonoBehaviour:
       - m_Target: {fileID: 28706255}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
         m_MethodName: muteGame
-        m_Mode: 1
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1707,7 +1768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5329699381809847407, guid: 44a5c29697b2c98ec8653673e36e5a9d, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6747237195939546331, guid: 44a5c29697b2c98ec8653673e36e5a9d, type: 3}
       propertyPath: m_Name
