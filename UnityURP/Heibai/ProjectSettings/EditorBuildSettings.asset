@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Heibei/Scenes/test scene 2.unity
     guid: 35134764ade3f184489648fda65d8a0a
   - enabled: 1
+    path: Assets/Heibei/Scenes/test scene 3.unity
+    guid: a233d21b931128b44b89019d03c19e13
+  - enabled: 1
     path: Assets/Heibei/Scenes/Tutorial Level.unity
     guid: bcf307fb2bdfdab4badfa96f6c25a2e9
   m_configObjects: {}
