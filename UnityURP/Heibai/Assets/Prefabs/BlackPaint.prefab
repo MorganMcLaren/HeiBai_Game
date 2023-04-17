@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6693153423956516514}
   m_Layer: 0
   m_Name: BlackPaint
-  m_TagString: White
+  m_TagString: Black
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65ce57e18f711d73b89910eae7e33e31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colour: 0
+  colour: 1
 --- !u!58 &6693153423956516514
 CircleCollider2D:
   m_ObjectHideFlags: 0
