@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 363712723, guid: 3b2ef77cf207b5af3a78790b30a7fa5d, type: 3}
       propertyPath: m_Size.x
-      value: 0.8817214
+      value: 0.7590792
       objectReference: {fileID: 0}
     - target: {fileID: 363712723, guid: 3b2ef77cf207b5af3a78790b30a7fa5d, type: 3}
       propertyPath: m_Size.y
-      value: 0.14962846
+      value: 0.10807417
       objectReference: {fileID: 0}
     - target: {fileID: 363712723, guid: 3b2ef77cf207b5af3a78790b30a7fa5d, type: 3}
       propertyPath: m_Enabled
@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 363712723, guid: 3b2ef77cf207b5af3a78790b30a7fa5d, type: 3}
       propertyPath: m_Offset.x
-      value: 0.0011159778
+      value: 0.00007663667
       objectReference: {fileID: 0}
     - target: {fileID: 363712723, guid: 3b2ef77cf207b5af3a78790b30a7fa5d, type: 3}
       propertyPath: m_Offset.y
-      value: -0.070957795
+      value: -0.0003156066
       objectReference: {fileID: 0}
     - target: {fileID: 363712723, guid: 3b2ef77cf207b5af3a78790b30a7fa5d, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.96
+      value: 0.94
       objectReference: {fileID: 0}
     - target: {fileID: 363712723, guid: 3b2ef77cf207b5af3a78790b30a7fa5d, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
@@ -99,18 +99,18 @@ PrefabInstance:
     - target: {fileID: 4466011745749720717, guid: 3b2ef77cf207b5af3a78790b30a7fa5d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d3e7f452e78866847b6cc06c4c4e5988, type: 3}
+      objectReference: {fileID: 21300000, guid: 4e8e941f646123f44a8b17a727555202, type: 3}
     - target: {fileID: 4466011745749720717, guid: 3b2ef77cf207b5af3a78790b30a7fa5d, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4466011745749720717, guid: 3b2ef77cf207b5af3a78790b30a7fa5d, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4466011745749720717, guid: 3b2ef77cf207b5af3a78790b30a7fa5d, type: 3}
       propertyPath: m_Color.r
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4466011745749720717, guid: 3b2ef77cf207b5af3a78790b30a7fa5d, type: 3}
       propertyPath: m_Enabled
