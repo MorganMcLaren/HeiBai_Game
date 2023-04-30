@@ -659,6 +659,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1295885923253554304, guid: 06a85b8bedd150e4ea11b29bdeee7783, type: 3}
+      propertyPath: winScreen
+      value: 
+      objectReference: {fileID: 1226567543}
     - target: {fileID: 1295885923253554305, guid: 06a85b8bedd150e4ea11b29bdeee7783, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -956,6 +960,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+--- !u!1 &1226567543 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1477636186, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+  m_PrefabInstance: {fileID: 1226567542}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1364909828
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -12,8 +12,8 @@ namespace Heibei
         Dictionary<HeibeiColour, List<GameObject>> _currentLevelColourObjects;
 
         // UI Objects to show or hide
-        public GameObject winPanel;
-        public GameObject losePanel;
+       // public GameObject winPanel;
+       // public GameObject losePanel;
 
         public static HeibeiGameManager Instance
         {
@@ -39,8 +39,8 @@ namespace Heibei
 
         void Start()
         {
-            winPanel.SetActive(false);
-            losePanel.SetActive(false);
+           // winPanel.SetActive(false);
+           // losePanel.SetActive(false);
         }
 
         void Update()
@@ -89,11 +89,11 @@ namespace Heibei
         }
         public void WinLevel()
         {
-            winPanel.SetActive(true);
+           // winPanel.SetActive(true);
         }
         public void LoseLevel()
         {
-            losePanel.SetActive(true);
+           // losePanel.SetActive(true);
         }
     }
 }

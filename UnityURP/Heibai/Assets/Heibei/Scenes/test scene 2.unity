@@ -728,6 +728,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 22331693387227148aae85afce91df01, type: 3}
+--- !u!1 &1477636186 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1477636186, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+  m_PrefabInstance: {fileID: 5180658251013244681}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1516195643
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,6 +993,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1295885923253554304, guid: 06a85b8bedd150e4ea11b29bdeee7783, type: 3}
+      propertyPath: winScreen
+      value: 
+      objectReference: {fileID: 1477636186}
     - target: {fileID: 1295885923253554305, guid: 06a85b8bedd150e4ea11b29bdeee7783, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1121,10 +1130,6 @@ PrefabInstance:
     - target: {fileID: 4156272616366963771, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
       propertyPath: m_Name
       value: HeibeiManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 4156272616366963771, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 9092281253513308594, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
       propertyPath: m_RootOrder

@@ -5,6 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
+    public GameObject winScreen;
+
+    void Start()
+    {
+        //winScreen.SetActive(false);
+    }
+    
     
 
     public void OnTriggerEnter2D()
@@ -14,10 +21,17 @@ public class NextLevel : MonoBehaviour
 
         //Debug.Log("Total: " + stars);
 
+
+        winScreen.SetActive(true);
         
 
 
 
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void NextLevelButton()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
