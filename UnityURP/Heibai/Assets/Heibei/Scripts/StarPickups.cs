@@ -16,11 +16,17 @@ public class StarPickups : MonoBehaviour
             Destroy(collision.gameObject);
 
             starsCollected++;
+            
             Debug.Log("Stars Collected: " + starsCollected);
+
+            //return (starsCollected);
 
         }
 
-
+        //int GetStars(int starsCollected)
+        //{
+            //return(starsCollected);
+        //}
 
     }
 
