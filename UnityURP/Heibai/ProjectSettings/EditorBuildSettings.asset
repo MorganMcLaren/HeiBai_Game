@@ -11,19 +11,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Heibei/Scenes/MainMenuScene.unity
     guid: 6f6cfce3b918fc54da3311a77f485825
-  - enabled: 0
-    path: Assets/Heibei/Scenes/test scene 2.unity
-    guid: 35134764ade3f184489648fda65d8a0a
   - enabled: 1
-    path: Assets/Heibei/Scenes/test scene 3.unity
+    path: Assets/Heibei/Scenes/LevelOne.unity
     guid: a233d21b931128b44b89019d03c19e13
   - enabled: 1
-    path: Assets/Heibei/Scenes/Tutorial Level.unity
-    guid: bcf307fb2bdfdab4badfa96f6c25a2e9
-  - enabled: 1
-    path: Assets/Heibei/Scenes/Level One.unity
+    path: Assets/Heibei/Scenes/LevelTwo.unity
     guid: c92bff100bbe8e146be608afdefb4919
   - enabled: 1
-    path: Assets/Heibei/Scenes/Level Two.unity
+    path: Assets/Heibei/Scenes/LevelThree.unity
     guid: c5ef60ca556184d4d9005926e53fafe2
+  - enabled: 1
+    path: Assets/Heibei/Scenes/LevelFour.unity
+    guid: 84295906660a01e42942b30cdb8cd8f7
+  - enabled: 1
+    path: Assets/Heibei/Scenes/LevelFive.unity
+    guid: d15e99b7aafcbf3409e31cdfc72265ab
+  - enabled: 1
+    path: Assets/Heibei/Scenes/LevelSix.unity
+    guid: 82bfd0b5851ca094f95ec46872062687
   m_configObjects: {}

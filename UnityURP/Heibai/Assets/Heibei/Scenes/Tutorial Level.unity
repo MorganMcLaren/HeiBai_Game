@@ -485,7 +485,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &767122631
 MonoBehaviour:
@@ -749,7 +749,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5672388812559979217, guid: 6972e556fd0e4894890eb959b8397303, type: 3}
   m_PrefabInstance: {fileID: 1070238805}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1468115998
+--- !u!1001 &1234679589
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -757,61 +757,57 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4156272616366963771, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
-      propertyPath: m_Name
-      value: HeibeiManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 9092281253513308594, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+    - target: {fileID: 2483216379983832400, guid: b2671954a1a965f48b51748eda033577, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9092281253513308594, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+    - target: {fileID: 2483216379983832400, guid: b2671954a1a965f48b51748eda033577, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -119.989044
       objectReference: {fileID: 0}
-    - target: {fileID: 9092281253513308594, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+    - target: {fileID: 2483216379983832400, guid: b2671954a1a965f48b51748eda033577, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 257.2083
       objectReference: {fileID: 0}
-    - target: {fileID: 9092281253513308594, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+    - target: {fileID: 2483216379983832400, guid: b2671954a1a965f48b51748eda033577, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9092281253513308594, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+    - target: {fileID: 2483216379983832400, guid: b2671954a1a965f48b51748eda033577, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 9092281253513308594, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+    - target: {fileID: 2483216379983832400, guid: b2671954a1a965f48b51748eda033577, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9092281253513308594, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+    - target: {fileID: 2483216379983832400, guid: b2671954a1a965f48b51748eda033577, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9092281253513308594, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+    - target: {fileID: 2483216379983832400, guid: b2671954a1a965f48b51748eda033577, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9092281253513308594, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+    - target: {fileID: 2483216379983832400, guid: b2671954a1a965f48b51748eda033577, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9092281253513308594, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+    - target: {fileID: 2483216379983832400, guid: b2671954a1a965f48b51748eda033577, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9092281253513308594, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+    - target: {fileID: 2483216379983832400, guid: b2671954a1a965f48b51748eda033577, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9092281253513308594, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 0
+    - target: {fileID: 7347172442805694681, guid: b2671954a1a965f48b51748eda033577, type: 3}
+      propertyPath: m_Name
+      value: HeibeiManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2d6ddb0cadf50de4cbf4de9d00335a70, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: b2671954a1a965f48b51748eda033577, type: 3}
 --- !u!1001 &1562265056
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -826,7 +822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7359681124033498800, guid: 9ed96d57c3c57d741bb151e16d61e930, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7359681124033498800, guid: 9ed96d57c3c57d741bb151e16d61e930, type: 3}
       propertyPath: m_LocalPosition.x

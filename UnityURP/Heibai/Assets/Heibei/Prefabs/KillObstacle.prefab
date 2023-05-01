@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 219421369414909407}
   - component: {fileID: 219421369414909400}
   - component: {fileID: 219421369414909401}
-  - component: {fileID: 219421369414909402}
+  - component: {fileID: 8315283292366994766}
   m_Layer: 0
   m_Name: KillObstacle
   m_TagString: Untagged
@@ -27,12 +27,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219421369414909403}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.34, y: -5.39, z: 0}
-  m_LocalScale: {x: 2.0794926, y: 0.6633, z: 1}
+  m_LocalPosition: {x: -1.34, y: -5.2645, z: 0}
+  m_LocalScale: {x: 2.0794926, y: 1.4477185, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &219421369414909400
 SpriteRenderer:
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.09281969, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 6b91335d0cb5b314fa598616a64f1a17, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -98,8 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58d649b83119ab445bdf8cb4449664a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &219421369414909402
-BoxCollider2D:
+--- !u!70 &8315283292366994766
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -108,19 +108,9 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.004653965, y: -0.015186766}
+  m_Size: {x: 0.9003855, y: 0.19926757}
+  m_Direction: 1

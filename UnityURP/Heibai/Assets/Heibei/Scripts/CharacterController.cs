@@ -11,6 +11,7 @@ namespace Heibei
         bool _onGround = false;
         Vector2 _currentMoveInput;
         bool _currentJumpInput;
+        //private bool m_FacingRight = true; //check to see if player is facing right
 
         public float moveSpeed = 3.0f;
         public float jumpForce = 5.0f;
@@ -84,8 +85,32 @@ namespace Heibei
 
         void Move()
         {
+            /*/ If the input is moving the player right and the player is facing left...
+		    if (moveSpeed > 0 && !m_FacingRight)
+		    {
+		    	// ... flip the player.
+		    	Flip();
+		    }
+		    // Otherwise if the input is moving the player left and the player is facing right...
+		    else if (moveSpeed < 0 && m_FacingRight)
+		    {
+			    // ... flip the player.
+			    Flip();
+		    }*/
+            
             transform.position += (Vector3)(Vector2.right * _currentMoveInput.x * moveSpeed * Time.deltaTime);
         }
+
+        /*private void Flip()
+	    {
+		    // Switch the way the player is labelled as facing.
+		    m_FacingRight = !m_FacingRight;
+
+		    // Multiply the player's x local scale by -1.
+		    Vector3 theScale = transform.localScale;
+		    theScale.x *= -1;
+		    transform.localScale = theScale;
+	    }*/
 
     }
 }
