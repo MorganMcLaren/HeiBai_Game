@@ -33,7 +33,14 @@ public class NextLevel : MonoBehaviour
     public void NextLevelButton()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        GameObject.SetActive(false);
     }
 
+
+    public void HomeButton()
+    {
+        SceneManager.LoadScene("MainMenuScene");
+        GameObject.SetActive(false);
+    }
 }
 
