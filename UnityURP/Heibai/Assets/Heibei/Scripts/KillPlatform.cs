@@ -5,14 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class KillPlatform : MonoBehaviour
 {
-    
 
 
-    void OnTriggerEnter2D()
+
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("PLayer colided");
-        Scene s = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(s.name);
+        Debug.Log("Player colided");
+
+
+        if (collision.gameObject.CompareTag("GroundChecker"))
+        {
+            Scene s = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(s.name);
+
+        }
     }
 
 
