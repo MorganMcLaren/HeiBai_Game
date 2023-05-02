@@ -484,9 +484,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2530837086122310919, guid: b2671954a1a965f48b51748eda033577, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667717680663380058, guid: b2671954a1a965f48b51748eda033577, type: 3}
+      propertyPath: m_TagString
+      value: Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 6333628631405569687, guid: b2671954a1a965f48b51748eda033577, type: 3}
+      propertyPath: m_TagString
+      value: Black
+      objectReference: {fileID: 0}
     - target: {fileID: 7347172442805694681, guid: b2671954a1a965f48b51748eda033577, type: 3}
       propertyPath: m_Name
       value: HeibeiManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8071415018708113686, guid: b2671954a1a965f48b51748eda033577, type: 3}
+      propertyPath: m_TagString
+      value: White
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

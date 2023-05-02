@@ -31,7 +31,7 @@ public class mainMenu : MonoBehaviour
     }
 
     //quits the game when the quit button is pressed
-    public void quitGame ()
+    public void quitGame()
     {
         Debug.Log("QUIT!");
         Application.Quit();
@@ -45,4 +45,5 @@ public class mainMenu : MonoBehaviour
             Debug.Log("quit menu");
         }
     }
+    
 }
