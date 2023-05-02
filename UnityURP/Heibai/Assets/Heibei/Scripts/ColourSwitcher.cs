@@ -93,9 +93,12 @@ namespace Heibei
         }
 
         // When a collision happens, switch colours to our colour, and destroy ourself.
-        void OnTriggerEnter2D()
+        void OnTriggerEnter2D(Collider2D collision)
         {
-            SwitchColour();
+            if (collision.gameObject.CompareTag("PlayerCollider") || collision.gameObject.CompareTag("GroundChecker"))
+            {
+                SwitchColour();
+            }
             Destroy(gameObject); //destroy ourselves
         }
 
