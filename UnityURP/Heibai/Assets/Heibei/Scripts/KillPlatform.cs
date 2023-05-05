@@ -13,7 +13,7 @@ public class KillPlatform : MonoBehaviour
         Debug.Log("Player colided");
 
 
-        if (collision.gameObject.CompareTag("PlayerCollider") || collision.gameObject.CompareTag("GroundChecker"))
+        if (collision.gameObject.CompareTag("GroundChecker"))
         {
             Scene s = SceneManager.GetActiveScene();
             SceneManager.LoadScene(s.name);
