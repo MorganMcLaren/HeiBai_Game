@@ -42,5 +42,11 @@ public class NextLevel : MonoBehaviour
         SceneManager.LoadScene("MainMenuScene");
         //GameObject.SetActive(false);
     }
+
+    public void LevelSelectButton()
+    {
+        SceneManager.LoadScene("LevelSelect");
+        //GameObject.SetActive(false);
+    }
 }
 
