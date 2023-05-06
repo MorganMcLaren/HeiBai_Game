@@ -65,7 +65,7 @@ namespace Heibei
 
     public class ColourSwitcher : MonoBehaviour
     {
-        public HeibeiColour colour;
+        public static HeibeiColour colour;
         // Start is called before the first frame update
 
         void SwitchColour()
@@ -97,7 +97,7 @@ namespace Heibei
         {
             Debug.Log("BUCKET");
             SwitchColour();
-            /*if (bucket.gameObject.CompareTag("PlayerCollider") || bucket.gameObject.CompareTag("GroundChecker"))
+            /*if (bucket.gameObject.CompareTag("GroundChecker"))
             {
                 Debug.Log("BUCKET");
                 SwitchColour();
@@ -119,5 +119,7 @@ namespace Heibei
                 collider.enabled = onStatus; //turn the collider on or off
             }
         }
+
+
     }
 }

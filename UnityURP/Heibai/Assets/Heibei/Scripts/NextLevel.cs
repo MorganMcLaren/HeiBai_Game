@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class NextLevel : MonoBehaviour
 {
     public GameObject winScreen;
+    public static bool IsGamePaused = false;
 
     void Start()
     {
@@ -14,17 +15,24 @@ public class NextLevel : MonoBehaviour
     
     
 
-    public void OnTriggerEnter2D()
+    void OnTriggerEnter2D(Collider2D portalcollision)
     {
-
-        //stars = GetComponent.StarPickups.GetStars;
-
-        //Debug.Log("Total: " + stars);
+        Debug.Log("PORTAL");
 
 
-        winScreen.SetActive(true);
-        
+        if (portalcollision.gameObject.CompareTag("GroundChecker"))
+        {
+            //stars = GetComponent.StarPickups.GetStars;
 
+            //Debug.Log("Total: " + stars);
+
+
+            winScreen.SetActive(true);
+            IsGamePaused = true;
+            Time.timeScale = 0f;
+            Debug.Log("PAUSED");
+
+        }
 
 
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -32,7 +40,15 @@ public class NextLevel : MonoBehaviour
 
     public void NextLevelButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if(IsGamePaused == true)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            IsGamePaused = false;
+            Time.timeScale = 1f;
+            Debug.Log("RESMUED");
+        }
+
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         //GameObject.SetActive(false);
     }
 
