@@ -65,7 +65,7 @@ namespace Heibei
 
     public class ColourSwitcher : MonoBehaviour
     {
-        public static HeibeiColour colour;
+        public HeibeiColour colour;
         // Start is called before the first frame update
 
         void SwitchColour()
@@ -119,7 +119,5 @@ namespace Heibei
                 collider.enabled = onStatus; //turn the collider on or off
             }
         }
-
-
     }
 }

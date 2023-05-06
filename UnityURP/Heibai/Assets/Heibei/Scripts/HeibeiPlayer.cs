@@ -6,23 +6,9 @@ namespace Heibei
 {
     public class HeibeiPlayer : MonoBehaviour
     {
-        // Start is called before the first frame update
         void Start()
         {
             HeibeiGameManager.Instance.RefreshLevelObjectColours();
         }
-
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
-    
-
-
-        
-
     }
-
-
 }

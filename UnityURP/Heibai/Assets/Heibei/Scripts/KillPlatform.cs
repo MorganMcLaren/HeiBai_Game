@@ -5,9 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class KillPlatform : MonoBehaviour
 {
-
-
-
     void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Player colided");
@@ -20,9 +17,4 @@ public class KillPlatform : MonoBehaviour
 
         }
     }
-
-
-
-
-
 }
