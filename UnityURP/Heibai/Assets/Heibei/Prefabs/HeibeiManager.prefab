@@ -338,6 +338,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 5309925885108975143}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 4492283979490567895}
         m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
         m_MethodName: HomeButton
@@ -362,11 +374,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35eec24893cdf054b933bd0fe89b4b14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winScreen: {fileID: 5309925885108975143}
-  winScreenZero: {fileID: 0}
-  winScreenOne: {fileID: 0}
-  winScreenTwo: {fileID: 0}
-  winScreenThree: {fileID: 0}
+  winScreen: {fileID: 6654188866445409464}
+  winScreenZero: {fileID: 6654188866445409464}
+  winScreenOne: {fileID: 3601603684467091665}
+  winScreenTwo: {fileID: 5309925885108975143}
+  winScreenThree: {fileID: 987887597755617428}
   stars: 0
 --- !u!1 &1955895570658478304
 GameObject:
@@ -490,6 +502,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 3601603684467091665}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 6857475021096851599}
         m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
         m_MethodName: HomeButton
@@ -514,11 +538,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35eec24893cdf054b933bd0fe89b4b14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winScreen: {fileID: 3601603684467091665}
-  winScreenZero: {fileID: 0}
-  winScreenOne: {fileID: 0}
-  winScreenTwo: {fileID: 0}
-  winScreenThree: {fileID: 0}
+  winScreen: {fileID: 6654188866445409464}
+  winScreenZero: {fileID: 6654188866445409464}
+  winScreenOne: {fileID: 3601603684467091665}
+  winScreenTwo: {fileID: 5309925885108975143}
+  winScreenThree: {fileID: 987887597755617428}
   stars: 0
 --- !u!1 &2112272491361851888
 GameObject:
@@ -1872,6 +1896,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 6654188866445409464}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 765618258502889418}
         m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
         m_MethodName: HomeButton
@@ -1897,10 +1933,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winScreen: {fileID: 6654188866445409464}
-  winScreenZero: {fileID: 0}
-  winScreenOne: {fileID: 0}
-  winScreenTwo: {fileID: 0}
-  winScreenThree: {fileID: 0}
+  winScreenZero: {fileID: 6654188866445409464}
+  winScreenOne: {fileID: 3601603684467091665}
+  winScreenTwo: {fileID: 5309925885108975143}
+  winScreenThree: {fileID: 987887597755617428}
   stars: 0
 --- !u!1 &7347172442805694681
 GameObject:
@@ -2506,6 +2542,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 987887597755617428}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 2651994451884486106}
         m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
         m_MethodName: HomeButton
@@ -2530,11 +2578,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35eec24893cdf054b933bd0fe89b4b14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winScreen: {fileID: 987887597755617428}
-  winScreenZero: {fileID: 0}
-  winScreenOne: {fileID: 0}
-  winScreenTwo: {fileID: 0}
-  winScreenThree: {fileID: 0}
+  winScreen: {fileID: 6654188866445409464}
+  winScreenZero: {fileID: 6654188866445409464}
+  winScreenOne: {fileID: 3601603684467091665}
+  winScreenTwo: {fileID: 5309925885108975143}
+  winScreenThree: {fileID: 987887597755617428}
   stars: 0
 --- !u!1001 &1638712756171368676
 PrefabInstance:

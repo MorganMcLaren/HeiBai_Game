@@ -7,13 +7,13 @@ public class StarPickups : MonoBehaviour
 
     public static int starsCollected = 0; 
 
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D starcollision)
     {
-        if (collision.gameObject.CompareTag("Star"))
+        if (starcollision.gameObject.CompareTag("Star"))
         {
             Debug.Log("Player picked up");
 
-            Destroy(collision.gameObject);
+            Destroy(starcollision.gameObject);
 
             starsCollected++;
             

@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class NextLevel : MonoBehaviour
 {
+    //public GameObject winScreenZeroT;
+    
     public GameObject winScreen;
     public GameObject winScreenZero;
     public GameObject winScreenOne;
@@ -18,6 +21,8 @@ public class NextLevel : MonoBehaviour
     void Start()
     {
         stars = 0;
+
+        //winScreenZeroT = GameObject.Find("WinScreen(NoStar)");
     }
     
     
@@ -68,10 +73,6 @@ public class NextLevel : MonoBehaviour
                     Debug.Log("PAUSED");
             }
             
-
-
-
-
             /*winScreen.SetActive(true);
             IsGamePaused = true;
             Time.timeScale = 0f;
@@ -101,13 +102,30 @@ public class NextLevel : MonoBehaviour
     public void HomeButton()
     {
         SceneManager.LoadScene("MainMenuScene");
-        //GameObject.SetActive(false);
+        IsGamePaused = false;
+        Time.timeScale = 1f;
+        Debug.Log("RESMUED");
+        
+        /*if(winScreenZero.activeSelf == false || winScreenOne.activeSelf == false || winScreenTwo.activeSelf == false || winScreenThree.activeSelf == false )
+        {
+            SceneManager.LoadScene("MainMenuScene");
+        }
+        else
+        {
+            winScreenZero.SetActive(false);
+            winScreenOne.SetActive(false);
+            winScreenTwo.SetActive(false);
+            winScreenThree.SetActive(false);
+            SceneManager.LoadScene("MainMenuScene");
+        }*/
     }
 
     public void LevelSelectButton()
     {
         SceneManager.LoadScene("LevelSelect");
-        //GameObject.SetActive(false);
+        IsGamePaused = false;
+        Time.timeScale = 1f;
+        Debug.Log("RESMUED");
     }
 }
 
