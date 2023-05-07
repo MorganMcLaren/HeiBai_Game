@@ -5,7 +5,7 @@ using UnityEngine;
 public class StarPickups : MonoBehaviour
 {
 
-    public int starsCollected = 0; 
+    public static int starsCollected = 0; 
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -23,10 +23,10 @@ public class StarPickups : MonoBehaviour
 
         }
 
-        //int GetStars(int starsCollected)
-        //{
-            //return(starsCollected);
-        //}
+        /*int GetStars(int starsCollected)
+        {
+            return(starsCollected);
+        }*/
 
     }
 

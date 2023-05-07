@@ -15,6 +15,8 @@ public class KillPlatform : MonoBehaviour
             Scene s = SceneManager.GetActiveScene();
             SceneManager.LoadScene(s.name);
 
+            StarPickups.starsCollected = 0;
+
         }
     }
 }

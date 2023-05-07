@@ -6,11 +6,18 @@ using UnityEngine.SceneManagement;
 public class NextLevel : MonoBehaviour
 {
     public GameObject winScreen;
+    public GameObject winScreenZero;
+    public GameObject winScreenOne;
+    public GameObject winScreenTwo;
+    public GameObject winScreenThree;
+
+    public int stars = 0;
+
     public static bool IsGamePaused = false;
 
     void Start()
     {
-        //winScreen.SetActive(false);
+        stars = 0;
     }
     
     
@@ -22,15 +29,53 @@ public class NextLevel : MonoBehaviour
 
         if (portalcollision.gameObject.CompareTag("GroundChecker"))
         {
-            //stars = GetComponent.StarPickups.GetStars;
+            
 
-            //Debug.Log("Total: " + stars);
+            stars = StarPickups.starsCollected;
+
+            Debug.Log("Total: " + stars);
+
+            if(stars <= 0)
+            {
+                winScreenZero.SetActive(true);
+                IsGamePaused = true;
+                Time.timeScale = 0f;
+                Debug.Log("PAUSED");
+
+            }
+
+            else if(stars == 1)
+            {
+                    winScreenOne.SetActive(true);
+                    IsGamePaused = true;
+                    Time.timeScale = 0f;
+                    Debug.Log("PAUSED");
+            }
+
+            else if(stars == 2)
+            {
+                    winScreenTwo.SetActive(true);
+                    IsGamePaused = true;
+                    Time.timeScale = 0f;
+                    Debug.Log("PAUSED");
+            }
+
+            else if(stars >= 3)
+            {
+                    winScreenThree.SetActive(true);
+                    IsGamePaused = true;
+                    Time.timeScale = 0f;
+                    Debug.Log("PAUSED");
+            }
+            
 
 
-            winScreen.SetActive(true);
+
+
+            /*winScreen.SetActive(true);
             IsGamePaused = true;
             Time.timeScale = 0f;
-            Debug.Log("PAUSED");
+            Debug.Log("PAUSED");*/
 
         }
 
