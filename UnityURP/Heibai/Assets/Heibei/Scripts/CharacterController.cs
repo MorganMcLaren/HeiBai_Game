@@ -20,6 +20,7 @@ namespace Heibei
 
         public static bool PlayerMovingX = false;
         public static bool PlayerMovingY = false;
+        bool FacingRight = true;
 
         void Awake()
         {
@@ -55,6 +56,16 @@ namespace Heibei
             {
                 PlayerMovingX = false;
             }
+
+            if(_currentMoveInput.x > 0.01f && !FacingRight) //if you're moving right and not facing right (facing left)...
+            {
+                Flip(); //...flips you to face right
+            }
+            else if(_currentMoveInput.x < -0.01f && FacingRight) //if you're moving left  and not facing left (facing right)...
+            {
+                Flip(); //..flips you to face left
+            }
+
             //don't bother setting y, we aren't using it.
             _currentJumpInput = Input.GetButton("Jump");
             if(_currentJumpInput)
@@ -103,32 +114,19 @@ namespace Heibei
 
         void Move()
         {
-            /*/ If the input is moving the player right and the player is facing left...
-		    if (moveSpeed > 0 && !m_FacingRight)
-		    {
-		    	// ... flip the player.
-		    	Flip();
-		    }
-		    // Otherwise if the input is moving the player left and the player is facing right...
-		    else if (moveSpeed < 0 && m_FacingRight)
-		    {
-			    // ... flip the player.
-			    Flip();
-		    }*/
-            
             transform.position += (Vector3)(Vector2.right * _currentMoveInput.x * moveSpeed * Time.deltaTime);
         }
 
-        /*private void Flip()
+        private void Flip()
 	    {
 		    // Switch the way the player is labelled as facing.
-		    m_FacingRight = !m_FacingRight;
+		    FacingRight = !FacingRight;
 
 		    // Multiply the player's x local scale by -1.
-		    Vector3 theScale = transform.localScale;
+		    Vector2 theScale = transform.localScale;
 		    theScale.x *= -1;
 		    transform.localScale = theScale;
-	    }*/
+	    }
 
     }
 }

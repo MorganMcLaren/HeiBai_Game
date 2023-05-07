@@ -31,7 +31,7 @@ namespace Heibei
             else
             {
                 playerAnimator.SetBool("IsJumping", false);
-            }            
+            }
         }
     }
 }

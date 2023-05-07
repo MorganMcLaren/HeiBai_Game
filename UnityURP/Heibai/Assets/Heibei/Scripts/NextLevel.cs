@@ -8,7 +8,6 @@ public class NextLevel : MonoBehaviour
 {
     //public GameObject winScreenZeroT;
     
-    public GameObject winScreen;
     public GameObject winScreenZero;
     public GameObject winScreenOne;
     public GameObject winScreenTwo;

@@ -35,6 +35,9 @@ namespace Heibei
                 //Destroy ourselves, there's another gamemanager already
                 Destroy(gameObject);
             }
+
+            Time.timeScale = 1f;
+
         }
 
         void Start()
