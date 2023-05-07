@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Walk_Animation_White
+  m_Name: White_Walk
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -35,8 +35,6 @@ AnimationClip:
       value: {fileID: -285198248, guid: fd51300c04a8ff04e906ac8135b11674, type: 3}
     - time: 0.93333334
       value: {fileID: 1690876619, guid: fd51300c04a8ff04e906ac8135b11674, type: 3}
-    - time: 1.0666667
-      value: {fileID: 1756273060, guid: fd51300c04a8ff04e906ac8135b11674, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -65,13 +63,12 @@ AnimationClip:
     - {fileID: 1851906344, guid: fd51300c04a8ff04e906ac8135b11674, type: 3}
     - {fileID: -285198248, guid: fd51300c04a8ff04e906ac8135b11674, type: 3}
     - {fileID: 1690876619, guid: fd51300c04a8ff04e906ac8135b11674, type: 3}
-    - {fileID: 1756273060, guid: fd51300c04a8ff04e906ac8135b11674, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.0833334
+    m_StopTime: 0.95
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

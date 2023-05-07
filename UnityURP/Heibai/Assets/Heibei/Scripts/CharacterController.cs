@@ -13,12 +13,12 @@ namespace Heibei
         bool _currentJumpInput;
         //private bool m_FacingRight = true; //check to see if player is facing right
 
-        public float moveSpeed = 3.0f;
+        public float moveSpeed = 4.0f;
         public float jumpForce = 5.0f;
         public Collider2D groundChecker;
         public ContactFilter2D contactFilter;
 
-
+        public GameObject g;
 
         void Awake()
         {
@@ -40,12 +40,35 @@ namespace Heibei
             if (_currentJumpInput)
                 Jump();
             Move();
+            IsPlayerMoving();
+        }
+
+        public IEnumerator PMove()
+        {
+            Vector2 startPos = g.transform.position;
+            yield return new WaitForSeconds(1f);
+            Vector2 finalPos = g.transform.position;
+            bool PlayerMoving = false;
+        }
+
+        public static IEnumerator IsPlayerMoving()
+        {
+            PMove();
+
+            if(startPos.x != finalPos.x)
+            {
+               PlayerMoving = true;
+            }
+            else
+            {
+                PlayerMoving = false;
+            }
         }
 
         void GetInput()
         {
             _currentMoveInput.x = Input.GetAxis("Horizontal");
-            //don't bother setting y, we aren;t using it.
+            //don't bother setting y, we aren't using it.
             _currentJumpInput = Input.GetButton("Jump");
         }
 
