@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 219421369414909400}
   - component: {fileID: 219421369414909401}
   - component: {fileID: 8315283292366994766}
+  - component: {fileID: 3894989773451339266}
   m_Layer: 0
   m_Name: KillObstacle
   m_TagString: Untagged
@@ -114,3 +115,23 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0065244627, y: -0.016529137}
   m_Size: {x: 0.9228269, y: 0.2395315}
   m_Direction: 1
+--- !u!95 &3894989773451339266
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219421369414909403}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 30f61532ff9d9b74abd851266f650162, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
