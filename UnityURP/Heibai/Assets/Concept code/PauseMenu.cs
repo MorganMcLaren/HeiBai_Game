@@ -5,13 +5,34 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+    public GameObject pauseMenu;
+
+
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            EscButton();
+            pauseMenu.SetActive(true);
+
+        }
+    }
+
+
+
     public void LevelSelectButton()
     {
         SceneManager.LoadScene("LevelSelect");
         Time.timeScale = 1f;
     }
 
-    public void EscButton()
+    public void HomeButtonPause()
+    {
+        SceneManager.LoadScene("MainMenuScene");
+
+    }
+
+        public void EscButton()
     {
         Time.timeScale = 0f;
         /*OnClick()

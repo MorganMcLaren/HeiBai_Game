@@ -745,7 +745,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 170495505}
+      - m_Target: {fileID: 1658495681}
         m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
         m_MethodName: HomeButton
         m_Mode: 1
@@ -3293,7 +3293,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1043206646}
+      - m_Target: {fileID: 1658495681}
         m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
         m_MethodName: HomeButton
         m_Mode: 1
@@ -4080,7 +4080,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1401602209}
+      - m_Target: {fileID: 1658495681}
         m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
         m_MethodName: HomeButton
         m_Mode: 1
@@ -4365,6 +4365,17 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 06a85b8bedd150e4ea11b29bdeee7783, type: 3}
+--- !u!114 &1658495681 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1295885923253554304, guid: 06a85b8bedd150e4ea11b29bdeee7783, type: 3}
+  m_PrefabInstance: {fileID: 1658495680}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35eec24893cdf054b933bd0fe89b4b14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1668067818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4703,7 +4714,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1856143414}
+      - m_Target: {fileID: 1658495681}
         m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
         m_MethodName: HomeButton
         m_Mode: 1
@@ -4810,6 +4821,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4461180191410673405, guid: b2671954a1a965f48b51748eda033577, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 1867506546}
     - target: {fileID: 7347172442805694681, guid: b2671954a1a965f48b51748eda033577, type: 3}
       propertyPath: m_Name
       value: HeibeiManager
@@ -4824,6 +4839,11 @@ PrefabInstance:
 --- !u!1 &1867506545 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6654188866445409464, guid: b2671954a1a965f48b51748eda033577, type: 3}
+  m_PrefabInstance: {fileID: 1867506544}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1867506546 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7032859906886853557, guid: b2671954a1a965f48b51748eda033577, type: 3}
   m_PrefabInstance: {fileID: 1867506544}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1874717533
@@ -5321,6 +5341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 306bb1e0a2eace7498d4dd8b7e394bf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 0}
 --- !u!114 &2060662579
 MonoBehaviour:
   m_ObjectHideFlags: 0

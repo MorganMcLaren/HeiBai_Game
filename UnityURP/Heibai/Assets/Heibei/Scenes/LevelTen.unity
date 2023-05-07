@@ -462,7 +462,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 132648760}
+      - m_Target: {fileID: 824730210}
         m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
         m_MethodName: HomeButton
         m_Mode: 1
@@ -1716,6 +1716,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5672388812559979217, guid: 6972e556fd0e4894890eb959b8397303, type: 3}
   m_PrefabInstance: {fileID: 943608544}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &513300445 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7032859906886853557, guid: b2671954a1a965f48b51748eda033577, type: 3}
+  m_PrefabInstance: {fileID: 1322223010}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &515282949
 GameObject:
   m_ObjectHideFlags: 0
@@ -1829,7 +1834,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 515282951}
+      - m_Target: {fileID: 824730210}
         m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
         m_MethodName: HomeButton
         m_Mode: 1
@@ -2586,7 +2591,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 619911010}
+      - m_Target: {fileID: 824730210}
         m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
         m_MethodName: HomeButton
         m_Mode: 1
@@ -3090,6 +3095,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5887406231771691492, guid: e8a5a92a988227e4ca1bddb15706bbbc, type: 3}
   m_PrefabInstance: {fileID: 1280206128}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &824730210 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1295885923253554304, guid: 06a85b8bedd150e4ea11b29bdeee7783, type: 3}
+  m_PrefabInstance: {fileID: 735206841}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35eec24893cdf054b933bd0fe89b4b14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &838343837 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 219421369414909407, guid: d7411c20e72739741a64050e4fede6aa, type: 3}
@@ -4465,6 +4481,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4461180191410673405, guid: b2671954a1a965f48b51748eda033577, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 513300445}
     - target: {fileID: 7347172442805694681, guid: b2671954a1a965f48b51748eda033577, type: 3}
       propertyPath: m_Name
       value: HeibeiManager
@@ -4725,7 +4745,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1469154398}
+      - m_Target: {fileID: 824730210}
         m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
         m_MethodName: HomeButton
         m_Mode: 1
@@ -5190,6 +5210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 306bb1e0a2eace7498d4dd8b7e394bf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 0}
 --- !u!114 &1692129258
 MonoBehaviour:
   m_ObjectHideFlags: 0

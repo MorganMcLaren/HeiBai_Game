@@ -177,8 +177,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.047566045, y: -0.5361992}
-  m_Size: {x: 0.57622963, y: 0.9449005}
+  m_Offset: {x: 0.043064658, y: -0.027543945}
+  m_Size: {x: 0.567227, y: 1.9622115}
   m_Direction: 0
 --- !u!58 &4781696421719539749
 CircleCollider2D:
@@ -414,6 +414,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: White
       objectReference: {fileID: 0}
+    - target: {fileID: 7764868171496199482, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2922067790477473426, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
     - {fileID: 2922067790477473422, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
@@ -566,6 +570,10 @@ PrefabInstance:
     - target: {fileID: 2922067790477473425, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
       propertyPath: m_TagString
       value: Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 7764868171496199482, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2922067790477473426, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
