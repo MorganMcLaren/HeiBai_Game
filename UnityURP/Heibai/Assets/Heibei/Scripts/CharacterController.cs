@@ -18,7 +18,8 @@ namespace Heibei
         public Collider2D groundChecker;
         public ContactFilter2D contactFilter;
 
-        public GameObject g;
+        public static bool PlayerMovingX = false;
+        public static bool PlayerMovingY = false;
 
         void Awake()
         {
@@ -40,36 +41,30 @@ namespace Heibei
             if (_currentJumpInput)
                 Jump();
             Move();
-            IsPlayerMoving();
-        }
-
-        public IEnumerator PMove()
-        {
-            Vector2 startPos = g.transform.position;
-            yield return new WaitForSeconds(1f);
-            Vector2 finalPos = g.transform.position;
-            bool PlayerMoving = false;
-        }
-
-        public static IEnumerator IsPlayerMoving()
-        {
-            PMove();
-
-            if(startPos.x != finalPos.x)
-            {
-               PlayerMoving = true;
-            }
-            else
-            {
-                PlayerMoving = false;
-            }
         }
 
         void GetInput()
         {
             _currentMoveInput.x = Input.GetAxis("Horizontal");
+            if(_currentMoveInput.x > 0.01f || _currentMoveInput.x < -0.01f)
+            {
+                PlayerMovingX = true;
+                //Debug.Log("MOVING");
+            }
+            else
+            {
+                PlayerMovingX = false;
+            }
             //don't bother setting y, we aren't using it.
             _currentJumpInput = Input.GetButton("Jump");
+            if(_currentJumpInput)
+            {
+                PlayerMovingY = true;
+            }
+            else
+            {
+                PlayerMovingY = false;
+            }
         }
 
         void CheckGround()
