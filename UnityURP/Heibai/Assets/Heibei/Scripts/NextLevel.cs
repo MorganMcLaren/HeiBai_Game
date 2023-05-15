@@ -29,6 +29,7 @@ public class NextLevel : MonoBehaviour
     void OnTriggerEnter2D(Collider2D portalcollision)
     {
         Debug.Log("PORTAL");
+        
 
 
         if (portalcollision.gameObject.CompareTag("PlayerCollider"))
@@ -72,6 +73,7 @@ public class NextLevel : MonoBehaviour
                     Debug.Log("PAUSED");
             }
             
+            StarPickups.starsCollected = 0;
             /*winScreen.SetActive(true);
             IsGamePaused = true;
             Time.timeScale = 0f;
@@ -88,6 +90,7 @@ public class NextLevel : MonoBehaviour
         if(IsGamePaused == true)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            StarPickups.starsCollected = 0;
             IsGamePaused = false;
             Time.timeScale = 1f;
             Debug.Log("RESMUED");
@@ -101,6 +104,7 @@ public class NextLevel : MonoBehaviour
     public void HomeButton()
     {
         SceneManager.LoadScene("MainMenuScene");
+        StarPickups.starsCollected = 0;
         IsGamePaused = false;
         Time.timeScale = 1f;
         Debug.Log("RESMUED");
@@ -122,6 +126,7 @@ public class NextLevel : MonoBehaviour
     public void LevelSelectButton()
     {
         SceneManager.LoadScene("LevelSelect");
+        StarPickups.starsCollected = 0;
         IsGamePaused = false;
         Time.timeScale = 1f;
         Debug.Log("RESMUED");
