@@ -31,7 +31,7 @@ public class NextLevel : MonoBehaviour
         Debug.Log("PORTAL");
 
 
-        if (portalcollision.gameObject.CompareTag("GroundChecker"))
+        if (portalcollision.gameObject.CompareTag("PlayerCollider"))
         {
             
 

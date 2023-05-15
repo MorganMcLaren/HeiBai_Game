@@ -45,9 +45,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.19307537}
+  m_Offset: {x: 0.03774168, y: -0.19089752}
   serializedVersion: 2
-  m_Radius: 0.30492467
+  m_Radius: 0.28242546
 --- !u!1 &606803287186541490
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,8 +177,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.043064658, y: -0.027543945}
-  m_Size: {x: 0.567227, y: 1.9622115}
+  m_Offset: {x: 0.043065358, y: -0.027543945}
+  m_Size: {x: 0.87332094, y: 1.9622115}
   m_Direction: 0
 --- !u!58 &4781696421719539749
 CircleCollider2D:
@@ -187,7 +187,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606803287186541490}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -309,10 +309,10 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3031834092684022096}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.4022737}
