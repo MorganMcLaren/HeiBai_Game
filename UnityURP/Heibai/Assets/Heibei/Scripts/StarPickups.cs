@@ -11,11 +11,13 @@ public class StarPickups : MonoBehaviour
     {
         if (starcollision.gameObject.CompareTag("Star"))
         {
+            Destroy(starcollision.gameObject);
+            
             Debug.Log("Player picked up");
 
-            Destroy(starcollision.gameObject);
+            
 
-            GetStars();
+            Invoke("GetStars", 1);
 
             
             

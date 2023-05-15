@@ -10,13 +10,13 @@ public class KillPlatform : MonoBehaviour
         Debug.Log("Player colided");
 
 
-        if (collision.gameObject.CompareTag("GroundChecker"))
-        {
-            Scene s = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(s.name);
+        
+        
+        Scene s = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(s.name);
 
-            StarPickups.starsCollected = 0;
+        StarPickups.starsCollected = 0;
 
-        }
+        
     }
 }
