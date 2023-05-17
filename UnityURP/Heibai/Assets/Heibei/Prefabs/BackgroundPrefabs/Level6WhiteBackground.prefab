@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3983837432131640518}
   - component: {fileID: 3983837432131640519}
   m_Layer: 0
-  m_Name: White Background
+  m_Name: Level6WhiteBackground
   m_TagString: Black
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,8 +25,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3983837432131640516}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2649, y: -0.1128, z: 11}
-  m_LocalScale: {x: 33.394314, y: 19.492887, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 11}
+  m_LocalScale: {x: 2.1, y: 2.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
