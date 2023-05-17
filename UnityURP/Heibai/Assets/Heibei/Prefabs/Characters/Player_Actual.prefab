@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606803286934322994}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.023, y: -0.755, z: 0}
+  m_LocalPosition: {x: 0.023, y: -0.706, z: 0}
   m_LocalScale: {x: 0.54038, y: 0.54038, z: 0.54038}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45,9 +45,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.045244947, y: -0.22320624}
+  m_Offset: {x: 0.03619066, y: 0.24388966}
   serializedVersion: 2
-  m_Radius: 0.25092128
+  m_Radius: 0.807441
 --- !u!1 &606803287186541490
 GameObject:
   m_ObjectHideFlags: 0
@@ -58,9 +58,8 @@ GameObject:
   m_Component:
   - component: {fileID: 606803287186541486}
   - component: {fileID: 606803287186541487}
-  - component: {fileID: 606803287186541488}
   - component: {fileID: 606803287186541489}
-  - component: {fileID: 4781696421719539749}
+  - component: {fileID: 606803287186541488}
   - component: {fileID: 606803287186541485}
   - component: {fileID: 626609657300284299}
   - component: {fileID: 8867615722096850308}
@@ -142,27 +141,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &606803287186541488
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606803287186541490}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!70 &606803287186541489
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -179,22 +157,27 @@ CapsuleCollider2D:
   m_Offset: {x: 0.043065358, y: -0.027543945}
   m_Size: {x: 0.87332094, y: 1.9622115}
   m_Direction: 0
---- !u!58 &4781696421719539749
-CircleCollider2D:
+--- !u!50 &606803287186541488
+Rigidbody2D:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606803287186541490}
-  m_Enabled: 0
-  m_Density: 1
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0.7
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0031016935, y: 0.26010868}
-  serializedVersion: 2
-  m_Radius: 0.71150184
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!114 &606803287186541485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,9 +389,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 2922067790477473426, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
-    - {fileID: 2922067790477473422, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
-    - {fileID: 2922067790477473427, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     - {fileID: 7255808402294973717, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
@@ -562,11 +545,7 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2922067790477473426, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
-    - {fileID: 2922067790477473422, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
-    - {fileID: 2922067790477473427, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
-    - {fileID: 7255808402294973717, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
+    m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6095b491c62ddfd6dbc870c636f72c0c, type: 3}
 --- !u!4 &5800008157600551015 stripped
