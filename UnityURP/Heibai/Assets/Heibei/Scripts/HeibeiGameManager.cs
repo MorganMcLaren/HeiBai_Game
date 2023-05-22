@@ -50,6 +50,7 @@ namespace Heibei
         {
             if (Input.GetKeyUp(KeyCode.R))
             {
+                StarPickups.starsCollected = 0;
                 ReloadCurrentLevel();
             }
         }
@@ -89,6 +90,7 @@ namespace Heibei
         {
             Scene s = SceneManager.GetActiveScene();
             SceneManager.LoadScene(s.name);
+            StarPickups.starsCollected = 0;
         }
         public void WinLevel()
         {
