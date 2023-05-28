@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7710933668688071860}
   m_Layer: 0
-  m_Name: ESC_Text
+  m_Name: ESCText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -196,8 +196,8 @@ Transform:
   m_LocalScale: {x: 0.6958285, y: 0.6958285, z: 0.6958285}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 635850352900810114}
   - {fileID: 635850352269167197}
+  - {fileID: 635850352900810114}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

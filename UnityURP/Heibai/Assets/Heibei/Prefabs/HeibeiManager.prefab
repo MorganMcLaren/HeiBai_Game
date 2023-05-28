@@ -3268,6 +3268,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4577694516103221069, guid: 4067135902b8e1e4cbcd74ece81336d2, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577694516103221069, guid: 4067135902b8e1e4cbcd74ece81336d2, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2c68279d19036b14487165d4a518fdee, type: 3}
+    - target: {fileID: 4577694516103221069, guid: 4067135902b8e1e4cbcd74ece81336d2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -3360,6 +3368,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 328058d8cc9a2044c9cf82af9d3c27ac, type: 3}
     - target: {fileID: 6947578547848744789, guid: 4067135902b8e1e4cbcd74ece81336d2, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6947578547848744789, guid: 4067135902b8e1e4cbcd74ece81336d2, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 03a23e35d2071b24cbd3cbb751285a48, type: 3}
+    - target: {fileID: 6947578547848744789, guid: 4067135902b8e1e4cbcd74ece81336d2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -3415,6 +3431,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8371626994642225176, guid: 4067135902b8e1e4cbcd74ece81336d2, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8371626994642225176, guid: 4067135902b8e1e4cbcd74ece81336d2, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 10954231e52fb08448fdaea3bfc280a5, type: 3}
     - target: {fileID: 8371626994642225176, guid: 4067135902b8e1e4cbcd74ece81336d2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
