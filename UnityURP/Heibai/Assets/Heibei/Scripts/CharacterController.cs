@@ -83,6 +83,7 @@ namespace Heibei
             Collider2D[] results = new Collider2D[2];
             if (Physics2D.OverlapCollider(groundChecker, contactFilter, results) > 0)
             {
+                
                 _onGround = true;
                 _rb2d.velocity = new Vector2(_rb2d.velocity.x, 0); //reset vertical velocity to 0
 
