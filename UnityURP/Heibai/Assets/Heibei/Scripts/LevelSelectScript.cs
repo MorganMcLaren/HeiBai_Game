@@ -12,51 +12,51 @@ public class LevelSelectScript : MonoBehaviour
 
     public void OneButton()
     {
-        SceneManager.LoadScene("LevelOne");
+        SceneManager.LoadScene("Level_1");
     }
 
     public void TwoButton()
     {
-        SceneManager.LoadScene("LevelTwo");
+        SceneManager.LoadScene("Level_2");
     }
 
     public void ThreeButton()
     {
-        SceneManager.LoadScene("LevelThree");
+        SceneManager.LoadScene("Level_3");
     }
 
     public void FourButton()
     {
-        SceneManager.LoadScene("LevelFour");
+        SceneManager.LoadScene("Level_4");
     }
 
     public void FiveButton()
     {
-        SceneManager.LoadScene("LevelFive");
+        SceneManager.LoadScene("Level_5");
     }
 
     public void SixButton()
     {
-        SceneManager.LoadScene("LevelSix");
+        SceneManager.LoadScene("Level_6");
     }
 
     public void SevenButton()
     {
-        SceneManager.LoadScene("LevelSeven");
+        SceneManager.LoadScene("Level_7");
     }
 
     public void EightButton()
     {
-        SceneManager.LoadScene("LevelEight");
+        SceneManager.LoadScene("Level_8");
     }
 
     public void NineButton()
     {
-        SceneManager.LoadScene("LevelNine");
+        SceneManager.LoadScene("Level_9");
     }
 
     public void TenButton()
     {
-        SceneManager.LoadScene("LevelTen");
+        SceneManager.LoadScene("Level_10");
     }
 }

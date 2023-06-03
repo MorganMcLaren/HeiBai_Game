@@ -9,34 +9,37 @@ EditorBuildSettings:
     path: Assets/Heibei/Scenes/MainMenuScene.unity
     guid: 6f6cfce3b918fc54da3311a77f485825
   - enabled: 1
-    path: Assets/Heibei/Scenes/LevelOne.unity
+    path: Assets/Heibei/Scenes/OpeningScene.unity
+    guid: a28fa076589858f4ba9009a151c1438d
+  - enabled: 1
+    path: Assets/Heibei/Scenes/Level_1.unity
     guid: a233d21b931128b44b89019d03c19e13
   - enabled: 1
-    path: Assets/Heibei/Scenes/LevelTwo.unity
+    path: Assets/Heibei/Scenes/Level_2.unity
     guid: c92bff100bbe8e146be608afdefb4919
   - enabled: 1
-    path: Assets/Heibei/Scenes/LevelThree.unity
+    path: Assets/Heibei/Scenes/Level_3.unity
     guid: c5ef60ca556184d4d9005926e53fafe2
   - enabled: 1
-    path: Assets/Heibei/Scenes/LevelFour.unity
+    path: Assets/Heibei/Scenes/Level_4.unity
     guid: 84295906660a01e42942b30cdb8cd8f7
   - enabled: 1
-    path: Assets/Heibei/Scenes/LevelFive.unity
+    path: Assets/Heibei/Scenes/Level_5.unity
     guid: d15e99b7aafcbf3409e31cdfc72265ab
   - enabled: 1
-    path: Assets/Heibei/Scenes/LevelSix.unity
+    path: Assets/Heibei/Scenes/Level_6.unity
     guid: 82bfd0b5851ca094f95ec46872062687
   - enabled: 1
-    path: Assets/Heibei/Scenes/LevelSeven.unity
+    path: Assets/Heibei/Scenes/Level_7.unity
     guid: c6aade5c31eb5dc4f83bdb76158fa742
   - enabled: 1
-    path: Assets/Heibei/Scenes/LevelEight.unity
+    path: Assets/Heibei/Scenes/Level_8.unity
     guid: 6dbcdec3fcd11d74b888da4b2a4ea505
   - enabled: 1
-    path: Assets/Heibei/Scenes/LevelNine.unity
+    path: Assets/Heibei/Scenes/Level_9.unity
     guid: c14b32ca3a8fbcc4eb2959134120266b
   - enabled: 1
-    path: Assets/Heibei/Scenes/LevelTen.unity
+    path: Assets/Heibei/Scenes/Level_10.unity
     guid: 2a6af4eb4c8bf6c46a7217b97e27a944
   - enabled: 1
     path: Assets/Heibei/Scenes/EndingScene.unity
