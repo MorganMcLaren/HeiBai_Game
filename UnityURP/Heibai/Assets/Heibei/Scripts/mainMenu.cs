@@ -37,13 +37,13 @@ public class mainMenu : MonoBehaviour
         Application.Quit();
     }//
 
-    void FixedUpdate()
+    /*void FixedUpdate()
     {
         if(Input.GetKey(KeyCode.Escape))
         {
             //deactivate menu object and activate quit menu object
             Debug.Log("quit menu");
         }
-    }
+    }*/
     
 }
