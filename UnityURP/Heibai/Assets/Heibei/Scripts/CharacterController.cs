@@ -14,6 +14,7 @@ namespace Heibei
         //private bool m_FacingRight = true; //check to see if player is facing right
 
         public float moveSpeed = 4.0f;
+        public float runSpeed = 1.0f;
         public float jumpForce = 5.0f;
         public Collider2D groundChecker;
         public ContactFilter2D contactFilter;
@@ -42,10 +43,11 @@ namespace Heibei
             if (_currentJumpInput)
                 Jump();
             Move();
+            Sprint();
         }
 
         void GetInput()
-        {
+        {            
             _currentMoveInput.x = Input.GetAxis("Horizontal");
             if(_currentMoveInput.x > 0.01f || _currentMoveInput.x < -0.01f)
             {
@@ -113,9 +115,22 @@ namespace Heibei
             }
         }
 
+        void Sprint()
+        {
+            if(Input.GetKey(KeyCode.LeftShift))
+            {
+                runSpeed = 1.5f;
+                //Debug.Log("SPRINTING");
+            }
+            else
+            {
+                runSpeed = 1.0f;
+            }
+        }
+
         void Move()
         {
-            transform.position += (Vector3)(Vector2.right * _currentMoveInput.x * moveSpeed * Time.deltaTime);
+            transform.position += (Vector3)(Vector2.right * _currentMoveInput.x * moveSpeed * runSpeed * Time.deltaTime);
         }
 
         private void Flip()
