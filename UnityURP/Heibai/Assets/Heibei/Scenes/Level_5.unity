@@ -783,6 +783,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5887406231771691492, guid: b7df6900485b5ec4e9a4072d6a954bc9, type: 3}
   m_PrefabInstance: {fileID: 180997679}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &186197582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5672388812559979220, guid: 6972e556fd0e4894890eb959b8397303, type: 3}
+  m_PrefabInstance: {fileID: 955100424}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &232402794 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5887406231771691492, guid: b7df6900485b5ec4e9a4072d6a954bc9, type: 3}
@@ -2474,6 +2479,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1587126808}
     m_Modifications:
+    - target: {fileID: 5106798844823024342, guid: 6972e556fd0e4894890eb959b8397303, type: 3}
+      propertyPath: bucketToRemove
+      value: 
+      objectReference: {fileID: 1866523855}
     - target: {fileID: 5672388812559979217, guid: 6972e556fd0e4894890eb959b8397303, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3764,7 +3773,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5887406231771691492, guid: b7df6900485b5ec4e9a4072d6a954bc9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.68
+      value: 3.05
       objectReference: {fileID: 0}
     - target: {fileID: 5887406231771691492, guid: b7df6900485b5ec4e9a4072d6a954bc9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4686,6 +4695,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
+--- !u!1 &1866523855 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5672388812559979220, guid: 6972e556fd0e4894890eb959b8397303, type: 3}
+  m_PrefabInstance: {fileID: 2134012901}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1948406417
 GameObject:
   m_ObjectHideFlags: 0
@@ -5156,13 +5170,17 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1587126808}
     m_Modifications:
+    - target: {fileID: 5106798844823024342, guid: 6972e556fd0e4894890eb959b8397303, type: 3}
+      propertyPath: bucketToRemove
+      value: 
+      objectReference: {fileID: 186197582}
     - target: {fileID: 5672388812559979217, guid: 6972e556fd0e4894890eb959b8397303, type: 3}
       propertyPath: m_RootOrder
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5672388812559979217, guid: 6972e556fd0e4894890eb959b8397303, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.55
+      value: -5.87
       objectReference: {fileID: 0}
     - target: {fileID: 5672388812559979217, guid: 6972e556fd0e4894890eb959b8397303, type: 3}
       propertyPath: m_LocalPosition.y

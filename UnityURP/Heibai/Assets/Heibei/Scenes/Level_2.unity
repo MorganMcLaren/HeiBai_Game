@@ -945,6 +945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackPaint
       objectReference: {fileID: 0}
+    - target: {fileID: 7736030777245445605, guid: 22331693387227148aae85afce91df01, type: 3}
+      propertyPath: bucketToRemove
+      value: 
+      objectReference: {fileID: 1241751079}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 22331693387227148aae85afce91df01, type: 3}
@@ -1205,6 +1209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackPaint (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7736030777245445605, guid: 22331693387227148aae85afce91df01, type: 3}
+      propertyPath: bucketToRemove
+      value: 
+      objectReference: {fileID: 932553708}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 22331693387227148aae85afce91df01, type: 3}
@@ -1685,6 +1693,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e70981251969b93428f41b9aaddb8c69, type: 3}
+--- !u!1 &932553708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6693153423956516518, guid: 22331693387227148aae85afce91df01, type: 3}
+  m_PrefabInstance: {fileID: 339159137}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &951478413
 GameObject:
   m_ObjectHideFlags: 0
@@ -2885,6 +2898,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: b7df6900485b5ec4e9a4072d6a954bc9, type: 3}
+--- !u!1 &1241751079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6693153423956516518, guid: 22331693387227148aae85afce91df01, type: 3}
+  m_PrefabInstance: {fileID: 591821254}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1273138799
 GameObject:
   m_ObjectHideFlags: 0
