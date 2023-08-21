@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ca695f1214bdf3b49b0fd6d6cace7f1f
+guid: 54e69d1a9b88ae04192b368cb8b5e042
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -68,7 +68,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -142,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkingAnimation_Black_0
+      name: StarAnimation_White_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc6d7d43e0cb8164d8b0020fda3b1908
-      internalID: 1811529325
+      spriteID: 7de5eba93891a044b9655b3a74c1d5a7
+      internalID: -925913104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_Black_1
+      name: StarAnimation_White_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 24
         y: 0
-        width: 32
-        height: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4471565c1f0ad7a4fb8f562eb9530be4
-      internalID: 807616125
+      spriteID: cb1d33a67176da548bbe8fb16cdfef0d
+      internalID: -1306584067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_Black_2
+      name: StarAnimation_White_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 0
-        width: 32
-        height: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +198,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4757337bafe6814795af77615ef09d8
-      internalID: 153016632
+      spriteID: 6a5db15333f80c347b436b204e0c538e
+      internalID: 1605400018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_Black_3
+      name: StarAnimation_White_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a706ae748a5e645a0432bf80fe3a2e
+      internalID: 444274637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarAnimation_White_4
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 32
-        height: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,92 +240,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7b26da8c95aca342835483f60d1e457
-      internalID: -826252373
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkingAnimation_Black_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6101b24f996e674f80c43d3a6327e2c
-      internalID: 1954280578
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkingAnimation_Black_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91d4d853dd3bff34ea4f1518f96ca004
-      internalID: 60141313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkingAnimation_Black_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 581403909e65e124caba533a59458874
-      internalID: -758345407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkingAnimation_Black_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d0c0c58ae541cd4f96bb8973dc346d4
-      internalID: 881899878
+      spriteID: b935f220f9f851648ba5c64f72f2c05d
+      internalID: 2021295679
       vertices: []
       indices: 
       edges: []
@@ -320,14 +257,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WalkingAnimation_Black_6: -758345407
-      WalkingAnimation_Black_7: 881899878
-      WalkingAnimation_Black_2: 153016632
-      WalkingAnimation_Black_3: -826252373
-      WalkingAnimation_Black_1: 807616125
-      WalkingAnimation_Black_0: 1811529325
-      WalkingAnimation_Black_4: 1954280578
-      WalkingAnimation_Black_5: 60141313
+      StarAnimation_White_1: -1306584067
+      StarAnimation_White_3: 444274637
+      StarAnimation_White_0: -925913104
+      StarAnimation_White_4: 2021295679
+      StarAnimation_White_2: 1605400018
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

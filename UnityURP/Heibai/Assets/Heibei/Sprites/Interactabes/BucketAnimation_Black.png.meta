@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ca695f1214bdf3b49b0fd6d6cace7f1f
+guid: ccf83e50622769240925ee49f3cb8d76
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -68,7 +68,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -142,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkingAnimation_Black_0
+      name: BucketAnimation_Black_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc6d7d43e0cb8164d8b0020fda3b1908
-      internalID: 1811529325
+      spriteID: 95c2b70e56fef744ba77fecd45760dd5
+      internalID: 482958619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_Black_1
+      name: BucketAnimation_Black_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 24
         y: 0
-        width: 32
-        height: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4471565c1f0ad7a4fb8f562eb9530be4
-      internalID: 807616125
+      spriteID: 7012e4f9f0190e34096b1dd1e01a74d6
+      internalID: 1634280266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_Black_2
+      name: BucketAnimation_Black_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 0
-        width: 32
-        height: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +198,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4757337bafe6814795af77615ef09d8
-      internalID: 153016632
+      spriteID: d438b7cedf255864181731ddb2f17359
+      internalID: 896952554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_Black_3
+      name: BucketAnimation_Black_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bf35ec46ea7ad488360ef8f62ff495
+      internalID: 1022276800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAnimation_Black_4
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 32
-        height: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7b26da8c95aca342835483f60d1e457
-      internalID: -826252373
+      spriteID: 63bb747e85de4be468de86628b89180f
+      internalID: -239408976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_Black_4
+      name: BucketAnimation_Black_5
       rect:
         serializedVersion: 2
-        x: 128
+        x: 120
         y: 0
-        width: 32
-        height: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6101b24f996e674f80c43d3a6327e2c
-      internalID: 1954280578
+      spriteID: 385ab0b4b438135478f02e67af43d14d
+      internalID: -513412411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_Black_5
+      name: BucketAnimation_Black_6
       rect:
         serializedVersion: 2
-        x: 160
+        x: 144
         y: 0
-        width: 32
-        height: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +282,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91d4d853dd3bff34ea4f1518f96ca004
-      internalID: 60141313
+      spriteID: 1f77382aa25aa7841a616d9060937afa
+      internalID: 594261508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_Black_6
+      name: BucketAnimation_Black_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd056370ba6d8654e9d47d9dd00b5c33
+      internalID: -829127169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BucketAnimation_Black_8
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 32
-        height: 32
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,29 +324,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 581403909e65e124caba533a59458874
-      internalID: -758345407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkingAnimation_Black_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d0c0c58ae541cd4f96bb8973dc346d4
-      internalID: 881899878
+      spriteID: 2f0092bcd5b221a448437bd3e6529128
+      internalID: 1265607309
       vertices: []
       indices: 
       edges: []
@@ -320,14 +341,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WalkingAnimation_Black_6: -758345407
-      WalkingAnimation_Black_7: 881899878
-      WalkingAnimation_Black_2: 153016632
-      WalkingAnimation_Black_3: -826252373
-      WalkingAnimation_Black_1: 807616125
-      WalkingAnimation_Black_0: 1811529325
-      WalkingAnimation_Black_4: 1954280578
-      WalkingAnimation_Black_5: 60141313
+      BucketAnimation_Black_1: 1634280266
+      BucketAnimation_Black_7: -829127169
+      BucketAnimation_Black_3: 1022276800
+      BucketAnimation_Black_2: 896952554
+      BucketAnimation_Black_8: 1265607309
+      BucketAnimation_Black_6: 594261508
+      BucketAnimation_Black_0: 482958619
+      BucketAnimation_Black_5: -513412411
+      BucketAnimation_Black_4: -239408976
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
