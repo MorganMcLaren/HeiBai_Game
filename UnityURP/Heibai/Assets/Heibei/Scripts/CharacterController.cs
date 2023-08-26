@@ -22,6 +22,7 @@ namespace Heibei
         public static bool PlayerMovingX = false;
         public static bool PlayerMovingY = false;
         bool FacingRight = true;
+        public static bool PlayerSprinting = false;
 
         void Awake()
         {
@@ -120,6 +121,7 @@ namespace Heibei
             if(Input.GetKey(KeyCode.LeftShift))
             {
                 runSpeed = 1.5f;
+                PlayerSprinting = true;
                 //Debug.Log("SPRINTING");
             }
             else

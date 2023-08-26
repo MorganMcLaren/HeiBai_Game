@@ -15,6 +15,17 @@ namespace Heibei
 
         void Update()
         {
+            if(CharacterController.PlayerMovingX == true && CharacterController.PlayerSprinting == true)
+            {
+                playerAnimator.SetFloat("Speed", 2);
+                playerAnimator.SetBool("IsSprinting", true);
+            }
+            else
+            {
+                playerAnimator.SetFloat("Speed", 0);
+                playerAnimator.SetBool("IsSprinting", false);
+            }
+            
             if(CharacterController.PlayerMovingX == true)
             {
                 playerAnimator.SetFloat("Speed", 1);
