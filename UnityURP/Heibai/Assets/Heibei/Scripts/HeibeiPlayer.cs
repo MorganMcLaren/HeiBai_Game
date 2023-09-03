@@ -10,12 +10,21 @@ namespace Heibei
         
         void Start()
         {
-            HeibeiGameManager.Instance.RefreshLevelObjectColours();
+            HeibeiGameManager.Instance.RefreshLevelObjectColours(); 
         }
 
         void Update()
         {
-            if(CharacterController.PlayerMovingX == true && CharacterController.PlayerSprinting == true)
+            if(CharacterController.PlayerSprinting)
+            {
+                playerAnimator.SetBool("IsSprinting", true);
+            }
+            else
+            {
+                playerAnimator.SetBool("IsSprinting", false);
+            }
+
+            /*if(CharacterController.PlayerSprinting && CharacterController.PlayerMovingX)
             {
                 playerAnimator.SetFloat("Speed", 2);
                 playerAnimator.SetBool("IsSprinting", true);
@@ -24,7 +33,7 @@ namespace Heibei
             {
                 playerAnimator.SetFloat("Speed", 0);
                 playerAnimator.SetBool("IsSprinting", false);
-            }
+            }*/
             
             if(CharacterController.PlayerMovingX == true)
             {

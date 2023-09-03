@@ -122,11 +122,13 @@ namespace Heibei
             {
                 runSpeed = 1.5f;
                 PlayerSprinting = true;
-                //Debug.Log("SPRINTING");
+                Debug.Log("SPRINTING");
             }
             else
             {
                 runSpeed = 1.0f;
+                PlayerSprinting = false;
+                //Debug.Log("WALKING");
             }
         }
 
