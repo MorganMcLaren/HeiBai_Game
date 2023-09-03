@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 807932764389731729}
   - component: {fileID: 807932764389731734}
   - component: {fileID: 807932764389731735}
-  - component: {fileID: 807932764389731732}
+  - component: {fileID: 4619028634567397905}
   m_Layer: 0
   m_Name: QuitWin (3)
   m_TagString: Untagged
@@ -291,9 +291,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
-        m_MethodName: HomeButton
+      - m_Target: {fileID: 4619028634567397905}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: HomeButtonPause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -303,7 +303,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &807932764389731732
+--- !u!114 &4619028634567397905
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -312,14 +312,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 807932764389731754}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35eec24893cdf054b933bd0fe89b4b14, type: 3}
+  m_Script: {fileID: 11500000, guid: 306bb1e0a2eace7498d4dd8b7e394bf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winScreenZero: {fileID: 807932764161605652}
-  winScreenOne: {fileID: 807932766096985310}
-  winScreenTwo: {fileID: 807932764391619838}
-  winScreenThree: {fileID: 807932765930961028}
-  stars: 0
+  pauseMenu: {fileID: 0}
 --- !u!1 &807932764391619838
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,7 +519,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 807932766156713959}
+      - m_Target: {fileID: 807932764161605652}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -533,12 +529,12 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 807932764495882399}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 807932764495882393}
+        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
+        m_MethodName: NextLevelButton
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -880,7 +876,7 @@ GameObject:
   - component: {fileID: 807932764859081756}
   - component: {fileID: 807932764859081757}
   - component: {fileID: 807932764859081746}
-  - component: {fileID: 807932764859081747}
+  - component: {fileID: 6378772165196310908}
   m_Layer: 0
   m_Name: QuitWin (1)
   m_TagString: Untagged
@@ -1002,9 +998,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
-        m_MethodName: HomeButton
+      - m_Target: {fileID: 6378772165196310908}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: HomeButtonPause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1014,7 +1010,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &807932764859081747
+--- !u!114 &6378772165196310908
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1023,14 +1019,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 807932764859081745}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35eec24893cdf054b933bd0fe89b4b14, type: 3}
+  m_Script: {fileID: 11500000, guid: 306bb1e0a2eace7498d4dd8b7e394bf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winScreenZero: {fileID: 807932764161605652}
-  winScreenOne: {fileID: 807932766096985310}
-  winScreenTwo: {fileID: 807932764391619838}
-  winScreenThree: {fileID: 807932765930961028}
-  stars: 0
+  pauseMenu: {fileID: 0}
 --- !u!1 &807932764970196440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,7 +1111,7 @@ GameObject:
   - component: {fileID: 807932765186728438}
   - component: {fileID: 807932765186728439}
   - component: {fileID: 807932765186728436}
-  - component: {fileID: 807932765186728437}
+  - component: {fileID: 6531164941825975858}
   m_Layer: 0
   m_Name: QuitWin (2)
   m_TagString: Untagged
@@ -1241,9 +1233,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
-        m_MethodName: HomeButton
+      - m_Target: {fileID: 6531164941825975858}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: HomeButtonPause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1253,7 +1245,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &807932765186728437
+--- !u!114 &6531164941825975858
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1262,14 +1254,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 807932765186728203}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35eec24893cdf054b933bd0fe89b4b14, type: 3}
+  m_Script: {fileID: 11500000, guid: 306bb1e0a2eace7498d4dd8b7e394bf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winScreenZero: {fileID: 807932764161605652}
-  winScreenOne: {fileID: 807932766096985310}
-  winScreenTwo: {fileID: 807932764391619838}
-  winScreenThree: {fileID: 807932765930961028}
-  stars: 0
+  pauseMenu: {fileID: 0}
 --- !u!1 &807932765203497970
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,7 +1380,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1982853611668893137}
+      - m_Target: {fileID: 807932766096985310}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1402,12 +1390,12 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 807932765203497970}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 807932765203497980}
+        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
+        m_MethodName: NextLevelButton
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1471,7 +1459,7 @@ RectTransform:
   - {fileID: 807932764391619835}
   - {fileID: 807932765930961031}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1770,7 +1758,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1982853611871838913}
+      - m_Target: {fileID: 807932764391619838}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1780,12 +1768,12 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 807932766030593256}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 807932766030593258}
+        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
+        m_MethodName: NextLevelButton
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1933,7 +1921,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1982853611767894116}
+      - m_Target: {fileID: 807932765930961028}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1943,12 +1931,12 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 807932766046113626}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 807932766046113604}
+        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
+        m_MethodName: NextLevelButton
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2062,7 +2050,7 @@ GameObject:
   - component: {fileID: 807932766072461597}
   - component: {fileID: 807932766072461586}
   - component: {fileID: 807932766072461587}
-  - component: {fileID: 807932766072461584}
+  - component: {fileID: 8848906206807511889}
   m_Layer: 0
   m_Name: QuitWin
   m_TagString: Untagged
@@ -2184,9 +2172,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
-        m_MethodName: HomeButton
+      - m_Target: {fileID: 8848906206807511889}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: HomeButtonPause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2196,7 +2184,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &807932766072461584
+--- !u!114 &8848906206807511889
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2205,14 +2193,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 807932766072461590}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35eec24893cdf054b933bd0fe89b4b14, type: 3}
+  m_Script: {fileID: 11500000, guid: 306bb1e0a2eace7498d4dd8b7e394bf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winScreenZero: {fileID: 807932764161605652}
-  winScreenOne: {fileID: 807932766096985310}
-  winScreenTwo: {fileID: 807932764391619838}
-  winScreenThree: {fileID: 807932765930961028}
-  stars: 0
+  pauseMenu: {fileID: 0}
 --- !u!1 &807932766096985310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2481,11 +2465,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 03b6362478587714888b9ad696e383ff, type: 3}
---- !u!1 &1982853611767894116 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1203261868033179704, guid: 03b6362478587714888b9ad696e383ff, type: 3}
-  m_PrefabInstance: {fileID: 807932764205781084}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1982853611767894117 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1203261868033179705, guid: 03b6362478587714888b9ad696e383ff, type: 3}
@@ -2607,11 +2586,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1203261868033179705, guid: 03b6362478587714888b9ad696e383ff, type: 3}
   m_PrefabInstance: {fileID: 807932764373164793}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1982853611871838913 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1203261868033179704, guid: 03b6362478587714888b9ad696e383ff, type: 3}
-  m_PrefabInstance: {fileID: 807932764373164793}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &807932764576542185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2726,11 +2700,6 @@ PrefabInstance:
 --- !u!224 &1982853611668893136 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1203261868033179705, guid: 03b6362478587714888b9ad696e383ff, type: 3}
-  m_PrefabInstance: {fileID: 807932764576542185}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1982853611668893137 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1203261868033179704, guid: 03b6362478587714888b9ad696e383ff, type: 3}
   m_PrefabInstance: {fileID: 807932764576542185}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1982853612234043359
@@ -2851,11 +2820,6 @@ PrefabInstance:
 --- !u!224 &807932766156713958 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1203261868033179705, guid: 03b6362478587714888b9ad696e383ff, type: 3}
-  m_PrefabInstance: {fileID: 1982853612234043359}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &807932766156713959 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1203261868033179704, guid: 03b6362478587714888b9ad696e383ff, type: 3}
   m_PrefabInstance: {fileID: 1982853612234043359}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &3591506376056575252 stripped
