@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fd51300c04a8ff04e906ac8135b11674
+guid: b61e73ee2cbdf72458fc1c1bce00487d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,53 +102,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkingAnimation_White_0
+      name: Walking_White_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +120,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07e123b67051a7e4c8bebd0bfb178db0
-      internalID: 1756273060
+      spriteID: ae61f02c353a57d43b33360687954eae
+      internalID: -333852658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_White_1
+      name: Walking_White_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
-        height: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b2f133f653a61140b1bce0af2285b9e
-      internalID: -1671829956
+      spriteID: d69c1824c1e5173499cf2815bffccefa
+      internalID: 112195475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_White_2
+      name: Walking_White_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
-        height: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 151683e1f232bac4c91f30d870759776
-      internalID: -575629415
+      spriteID: 7ef0883e6e862504ab643453807ded3d
+      internalID: 254472879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_White_3
+      name: Walking_White_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
-        height: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8469b91bd4ea3784bb54e1c218841dd9
-      internalID: 1441093971
+      spriteID: ac340cf13dce72849bfbf0d6200cc6cf
+      internalID: -1778712042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_White_4
+      name: Walking_White_4
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 32
-        height: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 597d2c57f8353a9409ef136e3008293e
-      internalID: 1282651293
+      spriteID: 866beaa85b8a9e543b979a3521bf8fc2
+      internalID: 1467693040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_White_5
+      name: Walking_White_5
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 32
-        height: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +225,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab178e1d1f384fe4d910241ca592503f
-      internalID: 1851906344
+      spriteID: e254c00b42a6bdb44a5dc3bd925bf32e
+      internalID: -1654757185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_White_6
+      name: Walking_White_6
       rect:
         serializedVersion: 2
         x: 192
         y: 0
         width: 32
-        height: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef9082c469588ea44bb254a0c699d4b2
-      internalID: -285198248
+      spriteID: bed54084c7f6f284c815f569dd1486ee
+      internalID: 1810070242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingAnimation_White_7
+      name: Walking_White_7
       rect:
         serializedVersion: 2
         x: 224
         y: 0
         width: 32
-        height: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,8 +267,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a315e7e80eed96a4c80ce35a5ef1e088
-      internalID: 1690876619
+      spriteID: 5d0d1cf1f08084c4e8162ecfefff452e
+      internalID: -1762853290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking_White_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef82d8b4a9124164db59bdd15c08e7ef
+      internalID: 720787064
       vertices: []
       indices: 
       edges: []
@@ -320,14 +305,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WalkingAnimation_White_0: 1756273060
-      WalkingAnimation_White_4: 1282651293
-      WalkingAnimation_White_1: -1671829956
-      WalkingAnimation_White_6: -285198248
-      WalkingAnimation_White_2: -575629415
-      WalkingAnimation_White_7: 1690876619
-      WalkingAnimation_White_3: 1441093971
-      WalkingAnimation_White_5: 1851906344
+      Walking_White_7: -1762853290
+      Walking_White_0: -333852658
+      Walking_White_4: 1467693040
+      Walking_White_6: 1810070242
+      Walking_White_1: 112195475
+      Walking_White_8: 720787064
+      Walking_White_5: -1654757185
+      Walking_White_2: 254472879
+      Walking_White_3: -1778712042
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
