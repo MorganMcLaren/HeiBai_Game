@@ -34,7 +34,7 @@ public class mainMenu : MonoBehaviour
     public void quitGame()
     {
         Debug.Log("QUIT!");
-        Application.Quit();
+        SceneManager.LoadScene("MainMenuScene");
     }//
 
     /*void FixedUpdate()
