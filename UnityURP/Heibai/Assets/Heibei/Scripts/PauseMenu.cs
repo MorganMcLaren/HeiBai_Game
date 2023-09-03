@@ -30,6 +30,7 @@ public class PauseMenu : MonoBehaviour
 
     public void EscButton()
     {
+        //Debug.Log("WHAT");
         Time.timeScale = 0f;
         /*OnClick()
         {
