@@ -2,12 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using Heibei;
 
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
     public GameObject blackMenu;
     public GameObject whiteMenu;
+    public GameObject escButton;
+
+    public HeibeiColour colourToSet;
 
     void Update()
     {
@@ -32,20 +37,24 @@ public class PauseMenu : MonoBehaviour
 
     public void EscButton()
     {
-        //Debug.Log("WHAT");
         Time.timeScale = 0f;
-        /*OnClick()
-        {
-            if(variable that marks the game as being in "black mode" is ture)
-                {
-                    open black pausemenu
-                }
+        Debug.Log("Pause menu colour: " + colourToSet);
 
-                else
-                {
-                    open white pausemenu
-                }
-        }*/
+        if (colourToSet == HeibeiColour.WHITE)
+        {
+            blackMenu.SetActive(true);
+        }
+        
+        if (colourToSet == HeibeiColour.BLACK)
+        {
+            whiteMenu.SetActive(true);
+        }
+    }
+
+    public void SetColour(HeibeiColour colour)
+    {
+        colourToSet = colour;
+        Debug.Log("Pause menu colour: " + colourToSet);
     }
 
     public void ResumeButton()

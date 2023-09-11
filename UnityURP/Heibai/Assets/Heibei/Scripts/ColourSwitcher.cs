@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace Heibei
 {
+
+
+    
     public enum HeibeiColour
     {
         BLACK = 0,
@@ -12,6 +15,7 @@ namespace Heibei
 
     public static class HeibeiColourUtil
     {
+        //public static string tag = "";
         public static string HeibeiColourToTag(HeibeiColour colour)
         {
             //If more colours are added, this switch must be updated with the correct tags
@@ -21,11 +25,13 @@ namespace Heibei
                 case HeibeiColour.BLACK:
                     {
                         tag = "Black";
+                        Debug.Log("Black");
                         break;
                     }
                 case HeibeiColour.WHITE:
                     {
                         tag = "White";
+                        Debug.Log("White");
                         break;
                     }
             }
@@ -66,7 +72,15 @@ namespace Heibei
     public class ColourSwitcher : MonoBehaviour
     {
         public HeibeiColour colour;
+        public bool currentColour = false;
+        private PauseMenu pauseMenu;
         // Start is called before the first frame update
+
+        private void Awake()
+        {
+            pauseMenu = FindObjectOfType<PauseMenu>();
+            Debug.Log("Pause menu:" + pauseMenu);
+        }
 
         void SwitchColour()
         {
@@ -97,11 +111,8 @@ namespace Heibei
         {
             Debug.Log("BUCKET");
             SwitchColour();
-            /*if (bucket.gameObject.CompareTag("GroundChecker"))
-            {
-                Debug.Log("BUCKET");
-                SwitchColour();
-            }*/
+            pauseMenu.SetColour(colour);
+            Debug.Log("Pause menu colour: " + colour);
             Destroy(gameObject); //destroy ourselves
         }
 
@@ -118,6 +129,8 @@ namespace Heibei
             {
                 collider.enabled = onStatus; //turn the collider on or off
             }
+            //Debug.Log("current colour" + HeibeiColourUtil.currentColour);
+            Debug.Log("Colour tag is " + tag);
         }
     }
 }
