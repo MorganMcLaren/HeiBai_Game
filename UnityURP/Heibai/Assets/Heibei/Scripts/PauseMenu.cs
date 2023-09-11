@@ -11,11 +11,11 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        /*if(Input.GetKeyDown(KeyCode.Escape))
         {
             EscButton();
             pauseMenu.SetActive(true);
-        }
+        }*/
     }
 
     public void LevelSelectButton()

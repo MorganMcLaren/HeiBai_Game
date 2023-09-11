@@ -275,6 +275,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 0}
+  blackMenu: {fileID: 0}
+  whiteMenu: {fileID: 0}
 --- !u!1001 &3029368620256003787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -383,6 +385,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1532818967008346986, guid: 4067135902b8e1e4cbcd74ece81336d2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 59.12268
+      objectReference: {fileID: 0}
+    - target: {fileID: 2550221299806546820, guid: 4067135902b8e1e4cbcd74ece81336d2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -19.63487
+      objectReference: {fileID: 0}
     - target: {fileID: 4318366473787777504, guid: 4067135902b8e1e4cbcd74ece81336d2, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -450,6 +460,10 @@ PrefabInstance:
     - target: {fileID: 4577694516103221069, guid: 4067135902b8e1e4cbcd74ece81336d2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8830831182244926765, guid: 4067135902b8e1e4cbcd74ece81336d2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -112.4349
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
