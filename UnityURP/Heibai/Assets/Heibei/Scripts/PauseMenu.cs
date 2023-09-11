@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
+    public GameObject blackMenu;
+    public GameObject whiteMenu;
 
     void Update()
     {
