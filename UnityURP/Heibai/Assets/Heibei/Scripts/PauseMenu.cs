@@ -44,8 +44,7 @@ public class PauseMenu : MonoBehaviour
         {
             blackMenu.SetActive(true);
         }
-        
-        if (colourToSet == HeibeiColour.BLACK)
+        else if(colourToSet == HeibeiColour.BLACK)
         {
             whiteMenu.SetActive(true);
         }
