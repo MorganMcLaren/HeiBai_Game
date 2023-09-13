@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Splat! Games
-  productName: Heibai
+  productName: Heibai_PGF
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -137,7 +137,7 @@ PlayerSettings:
     16:10: 0
     16:9: 0
     Others: 0
-  bundleVersion: 0.9 PGF-Test
+  bundleVersion: 0.10 PGF-Test
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0

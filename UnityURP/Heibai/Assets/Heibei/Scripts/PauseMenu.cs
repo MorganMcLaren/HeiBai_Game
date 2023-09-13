@@ -16,11 +16,11 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        /*if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.Escape))
         {
             EscButton();
-            pauseMenu.SetActive(true);
-        }*/
+            //pauseMenu.SetActive(true);
+        }
     }
 
     public void LevelSelectButton()
@@ -40,11 +40,11 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         Debug.Log("Pause menu colour: " + colourToSet);
 
-        if (colourToSet == HeibeiColour.WHITE)
+        if (colourToSet == HeibeiColour.BLACK)
         {
             blackMenu.SetActive(true);
         }
-        else if(colourToSet == HeibeiColour.BLACK)
+        else if(colourToSet == HeibeiColour.WHITE)
         {
             whiteMenu.SetActive(true);
         }

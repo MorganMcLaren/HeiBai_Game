@@ -41,6 +41,10 @@ PrefabInstance:
       value: PlatformBlack
       objectReference: {fileID: 0}
     - target: {fileID: 3003781276202223161, guid: 3b2ef77cf207b5af3a78790b30a7fa5d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003781276202223161, guid: 3b2ef77cf207b5af3a78790b30a7fa5d, type: 3}
       propertyPath: m_TagString
       value: Black
       objectReference: {fileID: 0}
