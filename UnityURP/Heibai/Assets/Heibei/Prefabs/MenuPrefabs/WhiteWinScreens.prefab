@@ -147,7 +147,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ddf415cfcc64a434fade6363e4846726, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f38b73d907c42e043b9410fbb9871ae6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d36f1b68e6453be4c8c4e88f7e97a024, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ec1ec97e0f64b5840b60d0ebcedd7362, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -265,7 +265,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 21300000, guid: e19fe07bee6aade45be11bf9f4731c3a, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: d7148fb01e210944b85a819504334473, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -318,6 +318,8 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   blackMenu: {fileID: 0}
   whiteMenu: {fileID: 0}
+  escButton: {fileID: 0}
+  colourToSet: 0
 --- !u!1 &807932764391619838
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +469,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 59bacf3cc9c5c4046ac19db4d3cc5f9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9f5984c26b7a4db41b357488b64a958b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -507,7 +509,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 21300000, guid: feb3139d0b93e8c4e806bcd024d25fe6, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: 322602f51ca74b24d9a450c4996b3e84, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -628,7 +630,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c9f602e40e607284e82874eb4bb36576, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d978da28f7b664c4da9518fc8f21b737, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -704,7 +706,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 319d872f0940f3f46a424f4df617a4e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ad52512e890aed34aa53f3a5538e17ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -780,7 +782,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9dd1600688812574d9c2126f239cd66b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a99a5fe3984cb664e96baf4e7250fba2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -856,7 +858,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c9f602e40e607284e82874eb4bb36576, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d978da28f7b664c4da9518fc8f21b737, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -934,7 +936,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d36f1b68e6453be4c8c4e88f7e97a024, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ec1ec97e0f64b5840b60d0ebcedd7362, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -974,7 +976,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 21300000, guid: e19fe07bee6aade45be11bf9f4731c3a, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: d7148fb01e210944b85a819504334473, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -1027,6 +1029,8 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   blackMenu: {fileID: 0}
   whiteMenu: {fileID: 0}
+  escButton: {fileID: 0}
+  colourToSet: 0
 --- !u!1 &807932764970196440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,7 +1097,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9a84c2063015b9c41b5ea3e4f8946217, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1433d2a12f0fb24ea6ab5574a9b18cb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1171,7 +1175,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d36f1b68e6453be4c8c4e88f7e97a024, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ec1ec97e0f64b5840b60d0ebcedd7362, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1211,7 +1215,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 21300000, guid: e19fe07bee6aade45be11bf9f4731c3a, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: d7148fb01e210944b85a819504334473, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -1264,6 +1268,8 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   blackMenu: {fileID: 0}
   whiteMenu: {fileID: 0}
+  escButton: {fileID: 0}
+  colourToSet: 0
 --- !u!1 &807932765203497970
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,7 +1338,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 59bacf3cc9c5c4046ac19db4d3cc5f9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9f5984c26b7a4db41b357488b64a958b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1372,7 +1378,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 21300000, guid: feb3139d0b93e8c4e806bcd024d25fe6, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: 322602f51ca74b24d9a450c4996b3e84, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -1442,7 +1448,7 @@ GameObject:
   - component: {fileID: 807932765789579258}
   - component: {fileID: 807932765789579259}
   m_Layer: 0
-  m_Name: WinScreens
+  m_Name: WhiteWinScreens
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1549,6 +1555,8 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   blackMenu: {fileID: 0}
   whiteMenu: {fileID: 0}
+  escButton: {fileID: 0}
+  colourToSet: 0
 --- !u!114 &807932765789579259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1712,7 +1720,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 59bacf3cc9c5c4046ac19db4d3cc5f9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9f5984c26b7a4db41b357488b64a958b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1752,7 +1760,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 21300000, guid: feb3139d0b93e8c4e806bcd024d25fe6, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: 322602f51ca74b24d9a450c4996b3e84, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -1875,7 +1883,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 59bacf3cc9c5c4046ac19db4d3cc5f9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9f5984c26b7a4db41b357488b64a958b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1915,7 +1923,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 21300000, guid: feb3139d0b93e8c4e806bcd024d25fe6, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: 322602f51ca74b24d9a450c4996b3e84, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -2036,7 +2044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c9f602e40e607284e82874eb4bb36576, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d978da28f7b664c4da9518fc8f21b737, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2114,7 +2122,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d36f1b68e6453be4c8c4e88f7e97a024, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ec1ec97e0f64b5840b60d0ebcedd7362, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2154,7 +2162,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 21300000, guid: e19fe07bee6aade45be11bf9f4731c3a, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: d7148fb01e210944b85a819504334473, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -2207,6 +2215,8 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   blackMenu: {fileID: 0}
   whiteMenu: {fileID: 0}
+  escButton: {fileID: 0}
+  colourToSet: 0
 --- !u!1 &807932766096985310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2354,7 +2364,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c9f602e40e607284e82874eb4bb36576, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d978da28f7b664c4da9518fc8f21b737, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
