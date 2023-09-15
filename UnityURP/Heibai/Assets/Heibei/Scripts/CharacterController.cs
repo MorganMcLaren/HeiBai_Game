@@ -47,6 +47,12 @@ namespace Heibei
             Sprint();
         }
 
+        void FixedUpate()
+        {
+            //Move();
+            //Sprint();
+        }
+
         void GetInput()
         {            
             _currentMoveInput.x = Input.GetAxis("Horizontal");
@@ -134,6 +140,7 @@ namespace Heibei
 
         void Move()
         {
+            //Debug.Log("MOVING");
             transform.position += (Vector3)(Vector2.right * _currentMoveInput.x * moveSpeed * runSpeed * Time.deltaTime);
         }
 
