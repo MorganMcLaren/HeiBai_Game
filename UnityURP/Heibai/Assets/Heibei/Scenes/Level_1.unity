@@ -612,6 +612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Border Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7181864029291965258, guid: 700ecc57feef278439d7fb653a4d764d, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: c37a46ffc320b1343b48b31879b3f3fb, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 700ecc57feef278439d7fb653a4d764d, type: 3}
