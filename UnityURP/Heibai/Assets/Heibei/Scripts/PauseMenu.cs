@@ -14,10 +14,28 @@ public class PauseMenu : MonoBehaviour
 
     public HeibeiColour colourToSet;
 
+
+    void Start()
+    {
+        Hide();
+    }
+
+    void Hide()
+    {
+        blackMenu.SetActive(false);
+        whiteMenu.SetActive(false);
+    }
+
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
+            if (SceneManager.GetActiveScene().name == "MainMenuScene" ||
+                SceneManager.GetActiveScene().name == "EndingScene" ||
+                SceneManager.GetActiveScene().name == "OpeningScene")
+            {
+                return;
+            }
             EscButton();
             //pauseMenu.SetActive(true);
         }
@@ -36,7 +54,7 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void EscButton()
-    {
+    {   
         Time.timeScale = 0f;
         Debug.Log("Pause menu colour: " + colourToSet);
 
@@ -59,6 +77,7 @@ public class PauseMenu : MonoBehaviour
     public void ResumeButton()
     {
         Time.timeScale = 1f;
+        //The resume button uses unity events to hide the pause menu
     }
 
     public void SkipCutsceneOne()

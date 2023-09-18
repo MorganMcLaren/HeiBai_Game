@@ -73,13 +73,11 @@ namespace Heibei
     {
         public HeibeiColour colour;
         public bool currentColour = false;
-        private PauseMenu pauseMenu;
         // Start is called before the first frame update
 
         private void Awake()
         {
-            pauseMenu = FindObjectOfType<PauseMenu>();
-            Debug.Log("Pause menu:" + pauseMenu);
+
         }
 
         void SwitchColour()
@@ -107,13 +105,16 @@ namespace Heibei
         }
 
         // When a collision happens, switch colours to our colour, and destroy ourself.
-        void OnTriggerEnter2D(Collider2D bucket)
+        void OnTriggerEnter2D(Collider2D otherThing)
         {
-            Debug.Log("BUCKET");
-            SwitchColour();
-            pauseMenu.SetColour(colour);
-            Debug.Log("Pause menu colour: " + colour);
-            Destroy(gameObject); //destroy ourselves
+            if (otherThing.tag == "PlayerCollider")
+            {
+                Debug.Log("BUCKET");
+                SwitchColour();
+                HeibeiGameManager.Instance.pauseMenu.SetColour(colour);
+                Debug.Log("Pause menu colour: " + colour);
+                Destroy(gameObject); //destroy ourselves
+            }
         }
 
         void EnableObject(GameObject g, bool onStatus = true)
@@ -130,7 +131,7 @@ namespace Heibei
                 collider.enabled = onStatus; //turn the collider on or off
             }
             //Debug.Log("current colour" + HeibeiColourUtil.currentColour);
-            Debug.Log("Colour tag is " + tag);
+            //Debug.Log("Colour tag is " + tag);
         }
     }
 }

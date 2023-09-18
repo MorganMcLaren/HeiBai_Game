@@ -11,6 +11,8 @@ namespace Heibei
         static HeibeiGameManager _instance;
         Dictionary<HeibeiColour, List<GameObject>> _currentLevelColourObjects;
 
+        public PauseMenu pauseMenu;
+
         // UI Objects to show or hide
        // public GameObject winPanel;
        // public GameObject losePanel;
