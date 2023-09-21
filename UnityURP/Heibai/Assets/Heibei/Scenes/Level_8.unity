@@ -2019,11 +2019,11 @@ PrefabInstance:
     - target: {fileID: 6573895407003133163, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
       propertyPath: blackBackground
       value: 
-      objectReference: {fileID: 1571761308503534609, guid: f8399de674b78d64a89c2b510d394932, type: 3}
+      objectReference: {fileID: 6535255563741502626, guid: fb6478e65c27bba42b9bdc7c99789c78, type: 3}
     - target: {fileID: 6573895407003133163, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
       propertyPath: whiteBackground
       value: 
-      objectReference: {fileID: 7216025141769672505, guid: af3e58c0622622440ae47217934c96b7, type: 3}
+      objectReference: {fileID: 6821302066443118668, guid: 803542d0e63e8d5428546d6648a4c940, type: 3}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
