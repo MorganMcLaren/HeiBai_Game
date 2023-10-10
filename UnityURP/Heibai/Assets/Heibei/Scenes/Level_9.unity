@@ -3896,6 +3896,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformWhite (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8744187942551931540, guid: e70981251969b93428f41b9aaddb8c69, type: 3}
+      propertyPath: m_Size.x
+      value: 1.1730785
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744187942551931540, guid: e70981251969b93428f41b9aaddb8c69, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0056824386
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e70981251969b93428f41b9aaddb8c69, type: 3}
