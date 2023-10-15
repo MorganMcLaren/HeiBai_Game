@@ -39,6 +39,12 @@ EditorBuildSettings:
     path: Assets/Heibei/Scenes/Level_9.unity
     guid: c14b32ca3a8fbcc4eb2959134120266b
   - enabled: 1
+    path: Assets/Heibei/Scenes/Level_10.unity
+    guid: 4eff72ee9ae1dd44ebaa0d74474a6536
+  - enabled: 1
+    path: Assets/Heibei/Scenes/Level_11.unity
+    guid: e4ffa12b89504584a86e32d99c148137
+  - enabled: 1
     path: Assets/Heibei/Scenes/Level_13.unity
     guid: 2a6af4eb4c8bf6c46a7217b97e27a944
   - enabled: 1
