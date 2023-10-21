@@ -5,7 +5,10 @@ using UnityEngine;
 public class StarPickups : MonoBehaviour
 {
 
-    public static int starsCollected = 0; 
+    public static int starsCollected = 0;
+    public ParticleSystem poofW;
+    public ParticleSystem poofB;
+
 
     public void OnTriggerEnter2D(Collider2D starcollision)
     {
@@ -15,9 +18,12 @@ public class StarPickups : MonoBehaviour
             
             Debug.Log("Player picked up");
 
-            
+
 
             GetStars();
+
+            poofW.Play();
+            poofB.Play();
 
             Destroy(gameObject);
             
