@@ -320,6 +320,7 @@ MonoBehaviour:
   whiteMenu: {fileID: 0}
   escButton: {fileID: 0}
   colourToSet: 0
+  GameIsPaused: 0
 --- !u!1 &807932764391619838
 GameObject:
   m_ObjectHideFlags: 0
@@ -1031,6 +1032,7 @@ MonoBehaviour:
   whiteMenu: {fileID: 0}
   escButton: {fileID: 0}
   colourToSet: 0
+  GameIsPaused: 0
 --- !u!1 &807932764970196440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1270,6 +1272,7 @@ MonoBehaviour:
   whiteMenu: {fileID: 0}
   escButton: {fileID: 0}
   colourToSet: 0
+  GameIsPaused: 0
 --- !u!1 &807932765203497970
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,7 +1474,7 @@ RectTransform:
   - {fileID: 807932764391619835}
   - {fileID: 807932765930961031}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1557,6 +1560,7 @@ MonoBehaviour:
   whiteMenu: {fileID: 0}
   escButton: {fileID: 0}
   colourToSet: 0
+  GameIsPaused: 0
 --- !u!114 &807932765789579259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2217,6 +2221,7 @@ MonoBehaviour:
   whiteMenu: {fileID: 0}
   escButton: {fileID: 0}
   colourToSet: 0
+  GameIsPaused: 0
 --- !u!1 &807932766096985310
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,6 +14,8 @@ public class PauseMenu : MonoBehaviour
 
     public HeibeiColour colourToSet;
 
+    public bool GameIsPaused = false;
+
 
     void Start()
     {
@@ -39,22 +41,33 @@ public class PauseMenu : MonoBehaviour
             EscButton();
             //pauseMenu.SetActive(true);
         }
+
+        if (GameIsPaused == true)
+        {
+            //Debug.Log("BEATEN");
+            if (Input.GetKeyDown(KeyCode.P)) {ResumeButton();}
+            if (Input.GetKeyDown(KeyCode.M)) {HomeButtonPause();}
+            if (Input.GetKeyDown(KeyCode.L)) {LevelSelectButton();}
+        }
     }
 
     public void LevelSelectButton()
     {
+        GameIsPaused = false;
         SceneManager.LoadScene("LevelSelect");
         Time.timeScale = 1f;
     }
 
     public void HomeButtonPause()
     {
+        GameIsPaused = false;
         SceneManager.LoadScene("MainMenuScene");
 
     }
 
     public void EscButton()
     {   
+        GameIsPaused = true;
         Time.timeScale = 0f;
         Debug.Log("Pause menu colour: " + colourToSet);
 
@@ -76,17 +89,20 @@ public class PauseMenu : MonoBehaviour
 
     public void ResumeButton()
     {
+        GameIsPaused = false;
         Time.timeScale = 1f;
         //The resume button uses unity events to hide the pause menu
     }
 
     public void SkipCutsceneOne()
     {
+        GameIsPaused = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void SkipCutSceneTwo()
     {
+        GameIsPaused = false;
         SceneManager.LoadScene("LevelSelect");
     }
 }

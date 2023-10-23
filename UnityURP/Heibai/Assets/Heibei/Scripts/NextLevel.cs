@@ -6,8 +6,6 @@ using UnityEngine.UI;
 
 public class NextLevel : MonoBehaviour
 {
-    //public GameObject winScreenZeroT;
-    
     public GameObject winScreenZero;
     public GameObject winScreenOne;
     public GameObject winScreenTwo;
@@ -15,23 +13,17 @@ public class NextLevel : MonoBehaviour
 
     public int stars = 0;
 
-    public static bool IsGamePaused = false;
+    public static bool IsLevelBeaten = false;
 
     void Start()
     {
         stars = 0;
-
-        //winScreenZeroT = GameObject.Find("WinScreen(NoStar)");
     }
-    
-    
 
     void OnTriggerEnter2D(Collider2D portalcollision)
     {
-        Debug.Log("PORTAL");
+        //Debug.Log("PORTAL");
         
-
-
         if (portalcollision.gameObject.CompareTag("PlayerCollider"))
         {
             
@@ -43,7 +35,7 @@ public class NextLevel : MonoBehaviour
             if(stars <= 0)
             {
                 winScreenZero.SetActive(true);
-                IsGamePaused = true;
+                IsLevelBeaten = true;
                 Time.timeScale = 0f;
                 Debug.Log("PAUSED");
 
@@ -52,7 +44,7 @@ public class NextLevel : MonoBehaviour
             else if(stars == 1)
             {
                     winScreenOne.SetActive(true);
-                    IsGamePaused = true;
+                    IsLevelBeaten = true;
                     Time.timeScale = 0f;
                     Debug.Log("PAUSED");
             }
@@ -60,7 +52,7 @@ public class NextLevel : MonoBehaviour
             else if(stars == 2)
             {
                     winScreenTwo.SetActive(true);
-                    IsGamePaused = true;
+                    IsLevelBeaten = true;
                     Time.timeScale = 0f;
                     Debug.Log("PAUSED");
             }
@@ -68,36 +60,25 @@ public class NextLevel : MonoBehaviour
             else if(stars >= 3)
             {
                     winScreenThree.SetActive(true);
-                    IsGamePaused = true;
+                    IsLevelBeaten = true;
                     Time.timeScale = 0f;
                     Debug.Log("PAUSED");
             }
             
             StarPickups.starsCollected = 0;
-            /*winScreen.SetActive(true);
-            IsGamePaused = true;
-            Time.timeScale = 0f;
-            Debug.Log("PAUSED");*/
-
         }
-
-
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void NextLevelButton()
     {
-        if(IsGamePaused == true)
+        if(IsLevelBeaten == true)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             StarPickups.starsCollected = 0;
-            IsGamePaused = false;
+            IsLevelBeaten = false;
             Time.timeScale = 1f;
             Debug.Log("RESMUED");
         }
-
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        //GameObject.SetActive(false);
     }
 
 
@@ -105,31 +86,29 @@ public class NextLevel : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenuScene");
         StarPickups.starsCollected = 0;
-        IsGamePaused = false;
+        IsLevelBeaten = false;
         Time.timeScale = 1f;
         Debug.Log("RESMUED");
-        
-        /*if(winScreenZero.activeSelf == false || winScreenOne.activeSelf == false || winScreenTwo.activeSelf == false || winScreenThree.activeSelf == false )
-        {
-            SceneManager.LoadScene("MainMenuScene");
-        }
-        else
-        {
-            winScreenZero.SetActive(false);
-            winScreenOne.SetActive(false);
-            winScreenTwo.SetActive(false);
-            winScreenThree.SetActive(false);
-            SceneManager.LoadScene("MainMenuScene");
-        }*/
     }
 
     public void LevelSelectButton()
     {
         SceneManager.LoadScene("LevelSelect");
         StarPickups.starsCollected = 0;
-        IsGamePaused = false;
+        IsLevelBeaten = false;
         Time.timeScale = 1f;
         Debug.Log("RESMUED");
+    }
+
+    void Update()
+    {
+        if (IsLevelBeaten == true)
+        {
+            Debug.Log("BEATEN");
+            if (Input.GetKeyDown(KeyCode.F)) {NextLevelButton();}
+            if (Input.GetKeyDown(KeyCode.M)) {HomeButton();}
+            if (Input.GetKeyDown(KeyCode.L)) {LevelSelectButton();}
+        }
     }
 }
 
