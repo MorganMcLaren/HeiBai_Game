@@ -109,7 +109,7 @@ namespace Heibei
         {
             if (otherThing.tag == "PlayerCollider")
             {
-                Debug.Log("BUCKET");
+                //Debug.Log("BUCKET");
                 SwitchColour();
                 HeibeiGameManager.Instance.pauseMenu.SetColour(colour);
                 Debug.Log("Pause menu colour: " + colour);

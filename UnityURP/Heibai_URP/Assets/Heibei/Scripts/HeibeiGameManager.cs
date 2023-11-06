@@ -94,13 +94,5 @@ namespace Heibei
             SceneManager.LoadScene(s.name);
             StarPickups.starsCollected = 0;
         }
-        public void WinLevel()
-        {
-           // winPanel.SetActive(true);
-        }
-        public void LoseLevel()
-        {
-           // losePanel.SetActive(true);
-        }
     }
 }

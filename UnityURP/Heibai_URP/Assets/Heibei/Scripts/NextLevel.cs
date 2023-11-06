@@ -37,7 +37,7 @@ public class NextLevel : MonoBehaviour
                 winScreenZero.SetActive(true);
                 IsLevelBeaten = true;
                 Time.timeScale = 0f;
-                Debug.Log("PAUSED");
+                //Debug.Log("PAUSED");
 
             }
 
@@ -46,7 +46,7 @@ public class NextLevel : MonoBehaviour
                     winScreenOne.SetActive(true);
                     IsLevelBeaten = true;
                     Time.timeScale = 0f;
-                    Debug.Log("PAUSED");
+                    //Debug.Log("PAUSED");
             }
 
             else if(stars == 2)
@@ -54,7 +54,7 @@ public class NextLevel : MonoBehaviour
                     winScreenTwo.SetActive(true);
                     IsLevelBeaten = true;
                     Time.timeScale = 0f;
-                    Debug.Log("PAUSED");
+                    //Debug.Log("PAUSED");
             }
 
             else if(stars >= 3)
@@ -62,7 +62,7 @@ public class NextLevel : MonoBehaviour
                     winScreenThree.SetActive(true);
                     IsLevelBeaten = true;
                     Time.timeScale = 0f;
-                    Debug.Log("PAUSED");
+                    //Debug.Log("PAUSED");
             }
             
             StarPickups.starsCollected = 0;
