@@ -542,7 +542,7 @@ PrefabInstance:
     - target: {fileID: 5341726295371743367, guid: 0c9ee0ccb1cfd244f85e611afe83d323, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 7126666c7f6f35543a24523f836ad456, type: 3}
+      objectReference: {fileID: 21300000, guid: 144c988c802ca9a42985ae9802559690, type: 3}
     - target: {fileID: 5341726295946768217, guid: 0c9ee0ccb1cfd244f85e611afe83d323, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -570,7 +570,7 @@ PrefabInstance:
     - target: {fileID: 5341726295946768222, guid: 0c9ee0ccb1cfd244f85e611afe83d323, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d73e6b0cc4ef093448af5c56f2bf125f, type: 3}
+      objectReference: {fileID: 21300000, guid: 597100f4947ba1a4b8e62f9acec69fd1, type: 3}
     - target: {fileID: 5341726295946768223, guid: 0c9ee0ccb1cfd244f85e611afe83d323, type: 3}
       propertyPath: m_Name
       value: 9TextBlack
@@ -2091,11 +2091,11 @@ PrefabInstance:
     - target: {fileID: 6573895407003133163, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
       propertyPath: blackBackground
       value: 
-      objectReference: {fileID: 3852098898962551080, guid: 8190234b9bd2c694da7fbb21c5f5a6eb, type: 3}
+      objectReference: {fileID: 2707284889335065857, guid: 27463e0cdd8ad7f47b95cf01d0aa29bb, type: 3}
     - target: {fileID: 6573895407003133163, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
       propertyPath: whiteBackground
       value: 
-      objectReference: {fileID: 3970042819371969041, guid: 04e309bdf5faf1d45adb8f3c984de396, type: 3}
+      objectReference: {fileID: 3983837432131640516, guid: 0e6188ba7011e854bb8e12d8f75ee106, type: 3}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}

@@ -1540,11 +1540,11 @@ PrefabInstance:
     - target: {fileID: 6573895407003133163, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
       propertyPath: blackBackground
       value: 
-      objectReference: {fileID: 8848769874923206662, guid: 3c633db273ff2ac4ca6c634f36b1ba24, type: 3}
+      objectReference: {fileID: 7035782994264169225, guid: 762cbb082c5363a4f8303a89486702ad, type: 3}
     - target: {fileID: 6573895407003133163, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
       propertyPath: whiteBackground
       value: 
-      objectReference: {fileID: 8165638436065235462, guid: f30d12330d6bdb948a52d6213dead812, type: 3}
+      objectReference: {fileID: 8501813964457478204, guid: 8b5d8626782e072409c7c5a59fcdcd07, type: 3}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6062bb3c1e99d6241a420ca192c5b790, type: 3}
