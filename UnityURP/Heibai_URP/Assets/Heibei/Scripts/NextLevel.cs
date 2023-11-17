@@ -18,6 +18,7 @@ public class NextLevel : MonoBehaviour
     void Start()
     {
         stars = 0;
+        
     }
 
     void OnTriggerEnter2D(Collider2D portalcollision)
@@ -26,13 +27,14 @@ public class NextLevel : MonoBehaviour
         
         if (portalcollision.gameObject.CompareTag("PlayerCollider"))
         {
-            
+
 
             stars = StarPickups.starsCollected;
+            
 
             Debug.Log("Total: " + stars);
 
-            if(stars <= 0)
+            if (stars <= 0)
             {
                 winScreenZero.SetActive(true);
                 IsLevelBeaten = true;
@@ -41,30 +43,33 @@ public class NextLevel : MonoBehaviour
 
             }
 
-            else if(stars == 1)
+            else if (stars == 1)
             {
-                    winScreenOne.SetActive(true);
-                    IsLevelBeaten = true;
-                    Time.timeScale = 0f;
-                    //Debug.Log("PAUSED");
+                winScreenOne.SetActive(true);
+                IsLevelBeaten = true;
+                Time.timeScale = 0f;
+                //Debug.Log("PAUSED");
             }
 
-            else if(stars == 2)
+            else if (stars == 2)
             {
-                    winScreenTwo.SetActive(true);
-                    IsLevelBeaten = true;
-                    Time.timeScale = 0f;
-                    //Debug.Log("PAUSED");
+                winScreenTwo.SetActive(true);
+                IsLevelBeaten = true;
+                Time.timeScale = 0f;
+                //Debug.Log("PAUSED");
             }
 
-            else if(stars >= 3)
+            else if (stars >= 3)
             {
-                    winScreenThree.SetActive(true);
-                    IsLevelBeaten = true;
-                    Time.timeScale = 0f;
-                    //Debug.Log("PAUSED");
+                winScreenThree.SetActive(true);
+                IsLevelBeaten = true;
+                Time.timeScale = 0f;
+                //Debug.Log("PAUSED");
+
+
             }
-            
+
+
             StarPickups.starsCollected = 0;
         }
     }
