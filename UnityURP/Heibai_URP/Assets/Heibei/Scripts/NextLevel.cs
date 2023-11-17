@@ -66,12 +66,31 @@ public class NextLevel : MonoBehaviour
                 Time.timeScale = 0f;
                 //Debug.Log("PAUSED");
 
+                /*Scene currentScene = SceneManager.GetActiveScene();
+
+                // Retrieve the name of this scene.
+                string sceneName = currentScene.name;*/
+
+               /* if (sceneName == "Level_1")                                                                   where im playing cant figure out how to read what scene im in
+                {
+                    public int starsLS1;
+                    starsLS1 = StarPickups.starsCollected;
+                }
+
+                else if (sceneName == "Level_2")
+                {
+                    public int starsLS2;
+                    starsLS2 = StarPickups.starsCollected;
+                }*/
+
 
             }
 
 
             StarPickups.starsCollected = 0;
         }
+
+
     }
 
     public void NextLevelButton()
