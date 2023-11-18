@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+//using PauseMenu;
 
 namespace Heibei
 {
@@ -54,6 +55,7 @@ namespace Heibei
             {
                 StarPickups.starsCollected = 0;
                 ReloadCurrentLevel();
+                pauseMenu.Hide();
             }
         }
 

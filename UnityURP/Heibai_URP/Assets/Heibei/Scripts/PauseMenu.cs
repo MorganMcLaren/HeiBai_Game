@@ -22,7 +22,7 @@ public class PauseMenu : MonoBehaviour
         Hide();
     }
 
-    void Hide()
+    public void Hide()
     {
         blackMenu.SetActive(false);
         whiteMenu.SetActive(false);
@@ -56,13 +56,14 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = false;
         SceneManager.LoadScene("LevelSelect");
         Time.timeScale = 1f;
+        Hide();
     }
 
     public void HomeButtonPause()
     {
         GameIsPaused = false;
         SceneManager.LoadScene("MainMenuScene");
-
+        Hide();
     }
 
     public void EscButton()
@@ -91,7 +92,7 @@ public class PauseMenu : MonoBehaviour
     {
         GameIsPaused = false;
         Time.timeScale = 1f;
-        //The resume button uses unity events to hide the pause menu
+        Hide();
     }
 
     public void SkipCutsceneOne()

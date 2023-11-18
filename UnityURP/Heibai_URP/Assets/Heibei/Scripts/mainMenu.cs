@@ -14,6 +14,7 @@ public class mainMenu : MonoBehaviour
     public void startGame ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Time.timeScale = 1f;
     }
 
     //starter code for muting the SFX from menu screen
@@ -35,11 +36,22 @@ public class mainMenu : MonoBehaviour
     {
         Debug.Log("QUIT!");
         Application.Quit();
-    }//
+    }
 
     public void levelSelect()
     {
         SceneManager.LoadScene("LevelSelect");
+        Time.timeScale = 1f;
+    }
+
+    public void pausescene()
+    {
+        Time.timeScale = 0f;
+    }
+
+    public void resumescene()
+    {
+        Time.timeScale = 1f;
     }
     
 }
