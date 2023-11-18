@@ -351,7 +351,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 126253639}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 7353a14dad98b5d43b74e9a1e68a66cc, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: ee76794a36ba1da45a5333fb22883db4, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -404,6 +404,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: Level_1
+  skipButton: {fileID: 0}
+  levelSelectButton: {fileID: 0}
 --- !u!1 &754961318
 GameObject:
   m_ObjectHideFlags: 0

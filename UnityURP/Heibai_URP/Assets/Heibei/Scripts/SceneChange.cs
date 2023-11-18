@@ -8,8 +8,8 @@ public class SceneChange : MonoBehaviour
     public string levelToLoad;
     public GameObject skipButton;
     public GameObject levelSelectButton;
-    private float timer = 47f;
-    private float timer2 = 55f;
+    private float timer = 52f;
+    private float timer2 = 41f;
     
     void Update ()
     {
